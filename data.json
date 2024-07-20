@@ -1,0 +1,55 @@
+ [
+    {
+        "title": "So Yummy",
+        "image": "./images/so-yummy.png",
+        "src": "https://vitalij99.github.io/recipes5/",
+        "technology": "React, Redux, RESTful API, Node.js, Express, MongoDb, mongoose, jsonwebtoken",
+        "description": "Team project: an application for creating unique recipes. Developed the back end for user authorization in the application, using Express and MongoDB to store registrations and recipes."
+        },
+    {
+        "title": "Ecosolutions",
+        "image": "./images/Ecosolutions.png",
+        "src": "https://kryzhanivskyi89.github.io/ecosolution/",
+        "technology": "React, WebPack, Git, CSS, HTML",
+        "description": "Pet project: landing page for a company that uses alternative energy sources. Developed a responsive website with a slider of works, an energy meter, a feedback form, and a burger menu."
+    },
+    {
+        "title": "Movies",
+        "image": "./images/movies.jpg",
+        "src": "https://kryzhanivskyi89.github.io/goit-react-hw-05-movies/",
+        "technology": "React Hooks · Webpack · React.js · JSON · Routing · npm · Axios",
+        "description": "This project simplifies searching for and viewing movie information. Users can discover popular movies, search by various criteria, and view detailed movie pages. Developed a homepage for popular movies and a search page for individual movie details. Integrated web routing for smooth navigation and used hooks for state management. Conducted asynchronous fetch requests to retrieve movie data."
+    },
+    {
+        "title": "Phonebook",
+        "image": "./images/Phonebook.jpg",
+        "src": "https://kryzhanivskyi89.github.io/goit-react-hw-08-phonebook/",
+        "technology": "React Hooks · Webpack · Redux.js · React.js · JSON · Routing · npm · Material-UI · Express.js · MongoDB · Render",
+        "description": "This project is a full-stack phonebook app for managing contacts. It features secure user authentication and authorization, contact management (add, edit, delete), and MongoDB integration. The app is deployed on a hosting platform, overcoming authorization challenges and ensuring consistent functionality. Input handling and data validation were optimized for a better user experience."
+    },
+    {
+        "title": "News",
+        "image": "./images/News.png",
+        "src": " https://petrov-tech.github.io/team-project-news/",
+        "technology": "Scrum · Agile Methodologies · JSON · npm · Figma (Software) · Trello · Axios · JavaScript · Cascading Style Sheets (CSS)",
+        "description": "An application for searching for news in reputable publications. The search is performed by keyword, category and date. It is possible to save read and favorite news"
+    },
+    {
+        "title": "Foodsta",
+        "image": "./images/FoodSta2x.png",
+        "src": " https://petrov-tech.github.io/team13-proj-foodsta/",
+        "technology": "Parcel · Git · Cascading Style Sheets (CSS) · Scrum · Agile Methodologies · HTML5 · JavaScript · Figma (Software) · Trello",
+        "description": "Team project: website of a cafe where the most delicious food is prepared. Developed buttons and was responsible for the responsive header in the mobile-first layout. Helped colleagues in coding and solving difficulties with unfavourable deadlines. Effective communication via messengers and daily meetings."
+    },
+    {
+        "title": "WebStudio",
+        "image": "./images/",
+        "src": " ",
+        "technology": "Git · Cascading Style Sheets (CSS) HTML5  · Figma (Software) ",
+        "description": "Pet project: Website of a web application development and design studio. Effective solutions for your business."
+    }
+   
+
+]
+
+
