@@ -4,14 +4,14 @@
         "image": "./images/so-yummy.png",
         "src": "https://vitalij99.github.io/recipes5/",
         "technology": "React, Redux, RESTful API, Node.js, Express, MongoDb, mongoose, jsonwebtoken",
-        "description": "Team project: an application for creating unique recipes. Developed the back end for user authorization in the application, using Express and MongoDB to store registrations and recipes."
+        "description": "A team project for an application dedicated to creating and managing unique recipes. My role focused on backend development, particularly user authorization and registration using Express and MongoDB. The application includes features like a shopping list, ingredient calculations, and the ability to save and categorize favorite recipes, all managed via Redux."
         },
     {
         "title": "Ecosolutions",
         "image": "./images/Ecosolutions.png",
         "src": "https://kryzhanivskyi89.github.io/ecosolution/",
         "technology": "React, WebPack, Git, CSS, HTML",
-        "description": "Pet project: landing page for a company that uses alternative energy sources. Developed a responsive website with a slider of works, an energy meter, a feedback form, and a burger menu."
+        "description": "Pet project: A responsive landing page for a company specializing in alternative energy sources. I implemented a dynamic slider showcasing works, an energy meter, a feedback form, and a burger menu. This project emphasized the importance of user experience and responsive design."
     },
     {
         "title": "Movies",
@@ -32,7 +32,7 @@
         "image": "./images/News.png",
         "src": " https://petrov-tech.github.io/team-project-news/",
         "technology": "Scrum · Agile Methodologies · JSON · npm · Figma (Software) · Trello · Axios · JavaScript · Cascading Style Sheets (CSS)",
-        "description": "An application for searching for news in reputable publications. The search is performed by keyword, category and date. It is possible to save read and favorite news"
+        "description": "A frontend service that allows users to search for news from reputable sources based on queries, popular trends, and dates. The application includes functionality to save and categorize favorite and read articles, with a focus on user experience through light and dark themes, a weather widget, and a date display. I was responsible for implementing the logic for managing favorite articles."
     },
     {
         "title": "Foodsta",
@@ -43,10 +43,10 @@
     },
     {
         "title": "WebStudio",
-        "image": "./images/",
-        "src": " ",
+        "image": "./images/web-studiia.jpeg",
+        "src": "https://kryzhanivskyi89.github.io/goit-markup-hw-08/ ",
         "technology": "Git · Cascading Style Sheets (CSS) HTML5  · Figma (Software) ",
-        "description": "Pet project: Website of a web application development and design studio. Effective solutions for your business."
+        "description": "Pet project: A personal project showcasing a landing page for a company offering IT solutions. The site features the company’s portfolio, team member profiles, unique selling points, and a newsletter subscription form. I focused on creating a visually appealing, adaptive layout that ensures an optimal user experience across all devices."
     }
    
 

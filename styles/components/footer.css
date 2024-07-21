@@ -1,0 +1,33 @@
+.footer {
+
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(90, 180, 139, 0.5);
+    /* background: #fff; */
+}
+
+.footer-social {
+    margin-left: 100px;
+}
+.footer-social-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.footer-mail {
+    display: flex;
+    align-items: center;
+}
+
+.footer-mail-icon {
+    margin-right: 10px;
+}

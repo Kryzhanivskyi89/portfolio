@@ -4,28 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/components/portfolio.css" />
     <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
     
 </head>
 <body>
     <header class="hero">
-        <h1 class="">Andrii Kryzhanivskyi</h1>
-        <p class="">
-            Full Stack Developer (JavaScript/TypeScript, HTML/СSS, React,
-            Node.js/Express)
-        </p>
-        <a href="https://github.com/Kryzhanivskyi89"class="">github.com/Kryzhanivskyi89</a>
-        <a href="#portfolio" class="">
-            <img src="./img/header/chevron-down.svg" alt="Arrow up" />
-        </a>
+        <div class="hero-wrap">
+            <h1 class="hero-title">Andrii Kryzhanivskyi</h1>
+            <p class="hero-description">Full Stack Developer</p>
+            <p class="hero-description">
+                (JavaScript/TypeScript, HTML/СSS, React, Node.js/Express)
+            </p>
+            <a href="https://github.com/Kryzhanivskyi89"class="hero-description">github.com/Kryzhanivskyi89</a>
+            
+        </div>
     </header>
     
     <main>
-        <section class="" id="portfolio">
+        <section class="hero-section" id="about">
             <div class="container">
-                <h2 class="">Portfolio</h2>
+                <h2 class="about-title">About Me</h2>
+                <p class="about-description">
+                    I am Andrii Kryzhanivskyi, a dedicated Full Stack Developer with a passion for creating efficient and
+                    impactful web solutions. With a strong command of JavaScript/TypeScript, HTML/CSS, React, and
+                    Node.js/Express, I have successfully led and contributed to a variety of projects.
+                </p>
+                <p class="about-description">
+                    My experience ranges from developing sophisticated CRM systems for beauty salons, which streamline client
+                    management and automate processes, to crafting interactive websites for movie searches that integrate
+                    advanced state management and asynchronous data fetching. I excel in designing and implementing responsive
+                    web applications, ensuring seamless user experiences across devices.
+                </p>
+                <p class="about-description">
+                    Throughout my projects, I have demonstrated expertise in both front-end and back-end development. I have
+                    implemented complex user authentication systems, developed interactive user interfaces, and optimized API
+                    data handling. My skills include managing component state with hooks, integrating third-party APIs, and
+                    ensuring data integrity with robust backend solutions.
+                </p>
+                <p class="about-description">
+                    Some highlights of my work include the EcoSolution landing page showcasing alternative energy solutions, the
+                    So Yummy application for managing recipes with comprehensive features like user-generated content and
+                    shopping lists, and the News Search service which efficiently handles news data from authoritative sources.
+                </p>
+                <p class="about-description">
+                    My strengths lie in my ability to solve complex problems, deliver high-quality code, and create applications
+                    that meet user needs and business objectives. I am continually seeking new challenges and opportunities to
+                    apply my skills in innovative ways.
+                </p>
+            </div>
+        </section>
+        <section class="hero-section" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio-title">Portfolio</h2>
                 <ul class="portfolio list" id="portfolio-list"></ul>
             </div>
         </section>
@@ -33,27 +67,33 @@
     
     <footer class="footer">
         <div class="container">
-            <div class="">
-                <div class="">
-                    <p>My social media profiles:</p>
-                    <div class="footer-social-icons">
-                        <a target="_blank" href="http://www.linkedin.com/in/andrii-kryzhanivskyi/"><img class="footer-svg-icons"
-                                src="./img/social-icons/linkedin.svg" alt="" /></a>
-                        <a target="_blank" href="https://github.com/Kryzhanivskyi89"><img class="footer-svg-icons"
-                                src="./img/social-icons/github.svg" alt="" width="25" height="28" /></a>
-                        <a target="_blank" href="https://t.me/andrew_506"><img class="footer-svg-icons"
-                                src="./img/social-icons/telegram.svg" alt="" width="25" height="28" /></a>
-                        <a target="_blank" href=""><img class="footer-svg-icons" src="./img/social-icons/telegram.svg"
-                                alt="" width="25" height="28" /></a>
+            <div class="footer-content">
+                <div class="footer-social">
+                    <p>My social profiles:</p>
+                    <div class="footer-social-links">
+                        <a target="_blank" href="http://www.linkedin.com/in/andrii-kryzhanivskyi/">
+                            <img class="" src="./images/linkedin.png" alt="linkedin" width="25" height="28"/>
+                        </a>
+                        <a target="_blank" href="https://github.com/Kryzhanivskyi89">
+                            <img class="" src="./images/github.png" alt="github" width="25" height="28" />
+                        </a>
+                        <a target="_blank" href="https://t.me/andrew_506">
+                            <img class="" src="./images/telegram.png" alt="telegram" width="25" height="28" />
+                        </a>
+                        <!-- <a target="_blank" href=""><img class="footer-svg-icons" src="./img/social-icons/telegram.svg"
+                                alt="" width="25" height="28" /></a> -->
                     </div>
                 </div>
     
-                <div class="footer-colum footer-contacts">
-                    <p  clpss="">kryzhanivskyi.an@gmail.com</a>
+                <div class="footer-contacts">
                     <p>
-                        Write to me to order and find out the cost of layout for your
-                        project
+                        Write to me:
                     </p>
+                    <div class="footer-mail">
+                        <img class="footer-mail-icon" src="./images/gmail.png" alt="gmail" width="25" height="28" />
+                        <p  class="">kryzhanivskyi.an@gmail.com</p>
+
+                    </div>
                 </div>
             </div>
         </div>

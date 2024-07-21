@@ -4,6 +4,7 @@ body {
     background-color: #FEFEFE;
     color: #2c2c2c;
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 body.modal-open {
@@ -71,10 +72,13 @@ ul {
     }
 }
 
+.hero-section {
+    padding-top: 50px;
+}
+
 img {
     display: block;
     max-width: 100%;
-    height: auto;
 }
 
 .visually-hidden {
@@ -88,4 +92,46 @@ img {
     overflow: hidden;
 }
 
-/*# sourceMappingURL=index.css.map */
+.portfolio-title {
+    margin-bottom: 30px;
+        font-weight: 800;
+        font-size: 44px;
+        line-height: 1.3;
+        text-align: center;
+        color: #111;
+}
+
+.about-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.3;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (min-width: 1278px) {
+        font-weight: 800;
+        font-size: 52px;
+    }
+}
+
+.about-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #000;
+    margin-bottom: 15px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: 1278px) {
+        font-size: 22px;
+    }
+}
