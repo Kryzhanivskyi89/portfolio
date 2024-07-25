@@ -6,8 +6,12 @@
         
         @media screen and (min-width: 768px) {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+            grid-template-columns: repeat(2, minmax(275px, 1fr));
             grid-gap: 2rem;
+        }
+
+        @media screen and (min-width: 1278px) {
+            grid-template-columns: repeat(3, minmax(275px, 1fr));
         }
     }
 }
@@ -105,8 +109,9 @@
 .portfolioImage {
     top: 0;
     height: 300px;
-    width: 450px;
-    @media screen and (min-width: 768px) {
-        width: 400px;
-    }
+    width: 500px;
+    /* @media screen and (min-width: 768px) {
+        width: 500px;
+        
+    } */
 }
