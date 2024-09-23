@@ -1,7 +1,7 @@
  [
     {
         "title": "Mriya CRM",
-        "image": "",
+        "image": "./images/mriya.png",
         "src": "",
         "technology": "Next.js, Type Script, React-hook-form, Redux, RTK-Juery, MaterialUA",
         "description": "CRM system for beauty salon Mriya: created an intuitive interface, implemented key components such as customer, employee, and service management. I optimised performance with Next.js, TypeScript, and Material-UI, ensuring stable operation of the system and integration with the Python and PostgreSQL backend"
