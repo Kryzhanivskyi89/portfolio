@@ -1,5 +1,12 @@
  [
     {
+        "title": "Country",
+        "image": "./images/country.jpeg",
+        "src": "https://country-next-pi.vercel.app/",
+        "technology": "Next.js, Type Script, Node.js, Expres.js, Vercel",
+        "description": "This repository contains two small applications for displaying country information, built with Node.js (Express.js) for the Backend (BE) and React.js (Next.js) for the Frontend (FE). The project allows users to view a list of available countries and detailed information about each one, including border countries, population data, and country flags"
+        },
+    {
         "title": "Mriya CRM",
         "image": "./images/mriya.png",
         "src": "",
