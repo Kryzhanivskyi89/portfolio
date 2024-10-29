@@ -17,8 +17,8 @@ Welcome to my portfolio website! This is a personal project where I showcase my 
 
   - HTML5
   - CSS3 (Flexbox, Grid)
-  - JavaScript (ES6+)
-  - React.js
+  - JavaScript/TypeScript
+  - React.js/Next.js
   - Responsive Design (Media Queries)
   - Animations (CSS, JS)
 

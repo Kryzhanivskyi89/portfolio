@@ -1,12 +1,5 @@
  [
     {
-        "title": "Country",
-        "image": "./images/country.jpeg",
-        "src": "https://country-next-pi.vercel.app/",
-        "technology": "Next.js, Type Script, Node.js, Expres.js, Vercel",
-        "description": "This repository contains two small applications for displaying country information, built with Node.js (Express.js) for the Backend (BE) and React.js (Next.js) for the Frontend (FE). The project allows users to view a list of available countries and detailed information about each one, including border countries, population data, and country flags"
-        },
-    {
         "title": "Mriya CRM",
         "image": "./images/mriya.png",
         "src": "",
@@ -21,11 +14,11 @@
         "description": "A team project for an application dedicated to creating and managing unique recipes. My role focused on backend development, particularly user authorization and registration using Express and MongoDB. The application includes features like a shopping list, ingredient calculations, and the ability to save and categorize favorite recipes, all managed via Redux."
         },
     {
-        "title": "Ecosolutions",
-        "image": "./images/Ecosolutions.png",
-        "src": "https://kryzhanivskyi89.github.io/ecosolution/",
-        "technology": "React, WebPack, Git, CSS, HTML",
-        "description": "Pet project: A responsive landing page for a company specializing in alternative energy sources. I implemented a dynamic slider showcasing works, an energy meter, a feedback form, and a burger menu. This project emphasized the importance of user experience and responsive design."
+        "title": "Phonebook",
+        "image": "./images/Phonebook.jpg",
+        "src": "https://kryzhanivskyi89.github.io/goit-react-hw-08-phonebook/",
+        "technology": "React Hooks · Webpack · Redux.js · React.js · JSON · Routing · npm · Material-UI · Express.js · MongoDB · Render",
+        "description": "This project is a full-stack phonebook app for managing contacts. It features secure user authentication and authorization, contact management (add, edit, delete), and MongoDB integration. The app is deployed on a hosting platform, overcoming authorization challenges and ensuring consistent functionality. Input handling and data validation were optimized for a better user experience."
     },
     {
         "title": "Movies",
@@ -35,19 +28,33 @@
         "description": "This project simplifies searching for and viewing movie information. Users can discover popular movies, search by various criteria, and view detailed movie pages. Developed a homepage for popular movies and a search page for individual movie details. Integrated web routing for smooth navigation and used hooks for state management. Conducted asynchronous fetch requests to retrieve movie data."
     },
     {
-        "title": "Phonebook",
-        "image": "./images/Phonebook.jpg",
-        "src": "https://kryzhanivskyi89.github.io/goit-react-hw-08-phonebook/",
-        "technology": "React Hooks · Webpack · Redux.js · React.js · JSON · Routing · npm · Material-UI · Express.js · MongoDB · Render",
-        "description": "This project is a full-stack phonebook app for managing contacts. It features secure user authentication and authorization, contact management (add, edit, delete), and MongoDB integration. The app is deployed on a hosting platform, overcoming authorization challenges and ensuring consistent functionality. Input handling and data validation were optimized for a better user experience."
-    },
-    {
         "title": "News",
         "image": "./images/News.png",
         "src": " https://petrov-tech.github.io/team-project-news/",
         "technology": "Scrum · Agile Methodologies · JSON · npm · Figma (Software) · Trello · Axios · JavaScript · Cascading Style Sheets (CSS)",
         "description": "A frontend service that allows users to search for news from reputable sources based on queries, popular trends, and dates. The application includes functionality to save and categorize favorite and read articles, with a focus on user experience through light and dark themes, a weather widget, and a date display. I was responsible for implementing the logic for managing favorite articles."
     },
+    {
+        "title": "Country",
+        "image": "./images/country.jpeg",
+        "src": "https://country-next-pi.vercel.app/",
+        "technology": "Next.js, Type Script, Node.js, Expres.js, Vercel",
+        "description": "This repository contains two small applications for displaying country information, built with Node.js (Express.js) for the Backend (BE) and React.js (Next.js) for the Frontend (FE). The project allows users to view a list of available countries and detailed information about each one, including border countries, population data, and country flags"
+        },
+    {
+        "title": "Barber Shop",
+        "image": "./images/barberShop.jpeg",
+        "src": "https://kryzhanivskyi89.github.io/barberShop/",
+        "technology": "Git, Cascading Style Sheets (CSS), HTML5, Java Script, Figma (Software)",
+        "description": "Pet project: This project is a responsive landing page for a barber shop, created with the user experience in mind on different devices. It includes support for mobile, tablet, and desktop screens, and is also optimized for retina displays. The landing page has an interactive booking form that provides a simple and intuitive ordering of services"
+        },
+    {
+        "title": "Ecosolutions",
+        "image": "./images/Ecosolutions.png",
+        "src": "https://kryzhanivskyi89.github.io/ecosolution/",
+        "technology": "React, WebPack, Git, CSS, HTML",
+        "description": "Pet project: A responsive landing page for a company specializing in alternative energy sources. I implemented a dynamic slider showcasing works, an energy meter, a feedback form, and a burger menu. This project emphasized the importance of user experience and responsive design."
+        },
     {
         "title": "Foodsta",
         "image": "./images/FoodSta2x.png",
@@ -59,7 +66,7 @@
         "title": "WebStudio",
         "image": "./images/web-studiia.jpeg",
         "src": "https://kryzhanivskyi89.github.io/goit-markup-hw-08/ ",
-        "technology": "Git · Cascading Style Sheets (CSS) HTML5  · Figma (Software) ",
+        "technology": "Git, Cascading Style Sheets (CSS), HTML5, Java Script, Figma (Software)",
         "description": "Pet project: A personal project showcasing a landing page for a company offering IT solutions. The site features the company’s portfolio, team member profiles, unique selling points, and a newsletter subscription form. I focused on creating a visually appealing, adaptive layout that ensures an optimal user experience across all devices."
     }
    
