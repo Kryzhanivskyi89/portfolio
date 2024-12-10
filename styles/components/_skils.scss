@@ -1,0 +1,32 @@
+.container.skils {
+    display: flex; /* Включаємо Flexbox */
+    flex-direction: column; /* Розташовуємо елементи вертикально */
+    align-items: center; /* Вирівнюємо по горизонталі */
+    justify-content: center; /* Вирівнюємо по вертикалі */
+    text-align: center; /* Центруємо текст */
+}
+
+.skils-title {
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    color: #0056b3;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (min-width: 1278px) {
+        font-weight: 800;
+        font-size: 52px;
+    }
+}
+
+.skils-icon {
+    display: grid; 
+    grid-template-columns: repeat(4, minmax(45px, 1fr));
+    border: 2px solid #0056b3;
+   
+}

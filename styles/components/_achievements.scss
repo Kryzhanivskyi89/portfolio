@@ -1,9 +1,8 @@
-.about-title {
+.achievements-title {
     font-weight: 600;
     line-height: 1.3;
     text-align: center;
-    margin-bottom: 20px;
-    
+
     @media screen and (min-width: 768px) {
         font-size: 40px;
     }
@@ -14,11 +13,11 @@
     }
 }
 
-.about {
+.achievements-description {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
     color: #333;
     margin: 20px 0;
     padding: 20px;
@@ -26,6 +25,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: 'Montserrat', sans-serif;
+    opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 
@@ -38,11 +38,15 @@
     }
 }
 
-.about,
-.about-title {
-    color: #0056b3;
+
+.achievements-description.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
-.about p {
+.achievements-description,
+.achievements-title {
     margin-bottom: 15px;
+    color: #0056b3;
+    text-transform: uppercase;
 }

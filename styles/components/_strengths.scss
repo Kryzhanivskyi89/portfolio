@@ -1,0 +1,84 @@
+.strengths {
+    padding: 50px 20px;
+    // background-color: #F5F5F5;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.description {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.strengths-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.strengths-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 15px;
+    // border-left: 5px solid var(--akcent);
+
+    background-color: #fff;
+    color: #0056b3;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 15px;
+    transition: all 0.3s ease;
+}
+
+.strengths-item:hover {
+    // background-color: var(--akcent);
+    color: #003d7a;
+    transform: translateY(-5px);
+}
+
+.pre-strengths {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #0056b3;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: left;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.strengths-item:hover .pre-strengths {
+    color: #003d7a;
+}
+
+.strengths-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #0056b3;
+    flex: 1;
+}
+
+/* Мобільна адаптація */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .strengths-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pre-strengths {
+        margin-bottom: 10px;
+    }
+}

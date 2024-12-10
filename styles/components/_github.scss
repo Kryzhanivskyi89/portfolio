@@ -1,0 +1,71 @@
+.container.gitHub {
+    display: flex; /* Включаємо Flexbox */
+    flex-direction: column; /* Розташовуємо елементи вертикально */
+    align-items: center; /* Вирівнюємо по горизонталі */
+    justify-content: center; /* Вирівнюємо по вертикалі */
+    text-align: center; /* Центруємо текст */
+}
+
+#github-profile {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#github-profile img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#github-profile p {
+    margin: 5px 0;
+}
+
+#github-profile a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+#github-profile a:hover {
+    text-decoration: underline;
+}
+
+#github-contributions div {
+    display: inline-block;
+    border: 1px solid #e1e4e8;
+}
+
+#github-contributions {
+    margin-top: 20px;
+}
+
+// #contributions-calendar {
+//     display: grid;
+//     grid-template-columns: repeat(53, 1fr);
+//     /* 53 тижні в році, кожен елемент по 1fr */
+//     grid-gap: 2px;
+// }
+
+// #contributions-calendar div {
+//     width: 10px;
+//     height: 10px;
+//     margin: 1px;
+//     background-color: #ebedf0;
+//     /* колір для відсутніх контрибуцій */
+//     border-radius: 2px;
+//     border: 1px solid #ddd;
+// }
+
+#contributions-calendar {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#contributions-calendar>div {
+    display: flex;
+    gap: 2px;
+}
