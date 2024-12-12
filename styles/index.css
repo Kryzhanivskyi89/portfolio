@@ -31,14 +31,14 @@ ul {
 
 @media screen and (max-width: 767px) {
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
   .section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 .container {
@@ -304,8 +304,8 @@ img {
 }
 
 .strengths-item:hover {
-  color: #003d7a;
-  transform: translateY(-5px);
+  color: #3369cc;
+  transform: translateY(-10px);
 }
 
 .pre-strengths {
@@ -320,7 +320,7 @@ img {
 }
 
 .strengths-item:hover .pre-strengths {
-  color: #003d7a;
+  color: #3369cc;
 }
 
 .strengths-item p {
@@ -344,11 +344,11 @@ img {
   }
 }
 .container.skils {
-  display: flex; /* Включаємо Flexbox */
-  flex-direction: column; /* Розташовуємо елементи вертикально */
-  align-items: center; /* Вирівнюємо по горизонталі */
-  justify-content: center; /* Вирівнюємо по вертикалі */
-  text-align: center; /* Центруємо текст */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .skils-title {
@@ -371,10 +371,27 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .skils-category {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
+.skils-category-title {
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-align: center;
+  color: #0056b3;
+}
+
 .skils-icon {
+  margin-bottom: 10px;
   display: grid;
   grid-template-columns: repeat(4, minmax(45px, 1fr));
-  border: 2px solid #0056b3;
+  border: 1px solid #0056b3;
 }
 
 .codewars-badge img {
