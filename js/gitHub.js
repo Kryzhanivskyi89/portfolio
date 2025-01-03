@@ -22,8 +22,8 @@ async function fetchGitHubProfile() {
     const contributionsData = await contributionsResponse.json();
     displayGitHubContributions(contributionsData);
   } catch (error) {
-    githubSection.innerHTML = `<p>Помилка завантаження профілю: ${error.message}</p>`;
-    contributionsBlock.innerHTML = `<p>Помилка завантаження контрибуцій: ${error.message}</p>`;
+    // githubSection.innerHTML = `<p>Помилка завантаження профілю: ${error.message}</p>`;
+    // contributionsBlock.innerHTML = `<p>Помилка завантаження контрибуцій: ${error.message}</p>`;
   }
 }
 

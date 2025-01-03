@@ -12,20 +12,89 @@
     
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-wrap">
-            <h1 class="hero-title">Andrii Kryzhanivskyi</h1>
-            <!-- <p class="hero-description"> < AndrewDew /></p> -->
-            <p class="hero-description">Full Stack Developer</p>
-            <p class="hero-description">
-                (JavaScript/TypeScript, HTML/СSS, React/Next.js, Node.js/Express)
-            </p>
-            <a href="https://github.com/Kryzhanivskyi89"class="hero-description">github.com/Kryzhanivskyi89</a>
-            
+    <header class="header">
+        <div class="container header-wrap">
+            <a class="logo-header" href="./index.html">
+                &lt;AndrewDev/&gt;
+            </a>
+            <nav class="navigation">
+                <ul class="navigation_list list">
+                    <li class="navigation_item">
+                        <a class="navigation_link" href="#hero">home</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a class="navigation_link" href="#about">summery</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a class="navigation_link" href="#strengths">strengths</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a class="navigation_link" href="#achievements">achievements</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a class="navigation_link" href="#skils">skils</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a class="navigation_link" href="#github-profile">github</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a class="navigation_link" href="#portfolio">portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+            <button type="button" class="mobile-menu-btn js-open-menu">
+                <svg class="mobile-menu-icon" width="24" height="16">
+                    <use href="./images/sprite.svg#icon-menu-hamburger"></use>
+                </svg>
+            </button>
         </div>
+        <!-- <div class="mobile-menu js-menu-container">
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close-bnt js-close-menu">
+                    <svg class="menu-modal-button-icon" width="40" height="40">
+                        <use href="./images/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-header-menu list">
+                    <li class="menu-item">
+                        <a class="menu-link" href="#hero">home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#about">summery</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#strengths">strengths</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#achievements">achievements</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#skils">skils</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#github-profile">github</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#portfolio">portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
     </header>
     
     <main>
+        <section class="hero" id="hero">
+            <div class="hero-wrap">
+                <h1 class="hero-title">Andrii Kryzhanivskyi</h1>
+                <!-- <p class="hero-description"> < AndrewDew /></p> -->
+                <p class="hero-description">Full Stack Developer</p>
+                <p class="hero-description">
+                    (JavaScript/TypeScript, HTML/СSS, React/Next.js, Node.js/Express)
+                </p>
+                <a href="https://github.com/Kryzhanivskyi89" class="hero-description">github.com/Kryzhanivskyi89</a>
+            
+            </div>
+        </section>
         <section class="section" id="about">
             <div class="container">
                 <h3 class="about-title">Summery</h3>
@@ -79,7 +148,7 @@
         </section>
         <section class="section" id="achievements">
             <div class="container">
-                <h2 class="achievements-title">my achievements</h2>
+                <h2 class="achievements-title">achievements</h2>
                 <p class="achievements-description">
                     <span contenteditable=true>
                         Development of the main functionality of the CRM system: Designed and implemented the key components of the Mriya-CRM
@@ -126,7 +195,7 @@
        
         <section class="section" id="skils">
             <div class="container skils">
-                <h3 class="skils-title"> My Skills Set </h3>
+                <h3 class="skils-title"> Skills Set </h3>
                 <div class="skils-category">
                     <div>
                         <h3 class="skils-category-title"> Frontend </h3>
@@ -381,9 +450,9 @@
                 <img src="https://www.codewars.com/users/Kryzhanivskyi89/badges/large" alt="Kryzhanivskyi89's Codewar stats" />
             </div>
         </section> -->
-        <!-- <section id="github-profile">
+        <section id="github-profile">
             <div class="container gitHub">
-                <h2>My GitHub</h2>
+                <h2 class="gitHub-title">My GitHub</h2>
                 <div id="github-data">
                     <p>Завантаження...</p>
                 </div>
@@ -406,11 +475,11 @@
                         alt="Top Languages" />
                 </a>
                 
-                <div id="github-contributions">
+                <!-- <div id="github-contributions">
                     <p>Інформація завантажується...</p>
-                </div>
+                </div> -->
             </div>
-        </section> -->
+        </section>
         <section class="section" id="portfolio">
             <div class="container">
                 <h2 class="portfolio-title">Portfolio</h2>
@@ -454,6 +523,7 @@
         </div>
     </footer>
     
+    <script type="module" src="./js//mobile-menu.js"></script>
     <script type="module" src="./js/portfolio.js"></script>
     <script type="module" src="./js/about.js"></script>
     <script type="module" src="./js/gitHub.js"></script>
