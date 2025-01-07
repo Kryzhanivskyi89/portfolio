@@ -1,5 +1,12 @@
  [
     {
+        "title": "Switlana-Cake",
+        "image": "./images/Switlana-cake.png",
+        "src": "https://switlana-cakes.vercel.app/",
+        "technology": "HTML5, SCSS, Java Script, Claidinary API, Node.js, MongoDB, NodeMailer, Vercel, Render",
+        "description": "Optimized online store with responsive design, integration with Cloudinary API, and server-based architecture for order processing."
+        },
+        {
         "title": "Mriya CRM",
         "image": "./images/mriya.png",
         "src": "",
