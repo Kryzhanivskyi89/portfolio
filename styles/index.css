@@ -106,15 +106,15 @@ img {
   margin-left: auto;
   margin-top: 30px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.05rem;
   text-decoration: none;
 }
 @media screen and (min-width: 768px) {
   .logo-header {
     font-size: 16px;
-    margin-right: 40px;
-    margin-left: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -360,8 +360,9 @@ img {
 .about-title {
   font-weight: 600;
   line-height: 1.3;
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 768px) {
   .about-title {
@@ -467,16 +468,28 @@ img {
 }
 
 .strengths {
-  padding: 50px 20px;
   text-align: center;
 }
 
-.section-title {
-  font-size: 2.5rem;
+.strengths-title {
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 20px;
   color: #0056b3;
-  margin-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+@media screen and (min-width: 768px) {
+  .strengths-title {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1278px) {
+  .strengths-title {
+    font-weight: 800;
+    font-size: 52px;
+  }
 }
 
 .description {
@@ -544,6 +557,10 @@ img {
     margin-bottom: 10px;
   }
 }
+#skils {
+  background-color: #F5F5F5;
+}
+
 .container.skils {
   display: flex;
   flex-direction: column;
@@ -595,8 +612,30 @@ img {
   border: 1px solid #0056b3;
 }
 
-.codewars-badge img {
-  width: 250px;
+.codewars-title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  color: #0056b3;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .codewars-title {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1278px) {
+  .codewars-title {
+    font-weight: 800;
+    font-size: 52px;
+  }
+}
+
+.codewars-badge {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
   height: auto;
 }
 
@@ -608,21 +647,30 @@ img {
   text-align: center; /* Центруємо текст */
 }
 
-.gitHub-title {
-  font-size: 2.5rem;
-  color: #0056b3;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
 #github-profile {
-  font-family: Arial, sans-serif;
-  margin-top: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #F5F5F5;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gitHub-title {
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0056b3;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .gitHub-title {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1278px) {
+  .gitHub-title {
+    font-weight: 800;
+    font-size: 52px;
+  }
 }
 
 #github-profile img {
@@ -666,8 +714,9 @@ img {
 .about-title {
   font-weight: 600;
   line-height: 1.3;
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 768px) {
   .about-title {
