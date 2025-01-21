@@ -6,11 +6,11 @@
     /* height: 100vh; */
     background-image: 
         /* linear-gradient(
-                rgba(30, 71, 118, 0.75),
-                rgba(30, 71, 118, 0.75),
-                rgba(21, 84, 157, 0.75)
-                ), */
-            url("../images/hero-2.jpg");
+            rgba(30, 71, 118, 0.75),
+            rgba(30, 71, 118, 0.75),
+            rgba(21, 84, 157, 0.75)
+        ), */
+        url("../images/hero-2.jpg");
     background-size: cover;
     background-position: center;
     @media screen and (min-width: 768px) {
@@ -23,8 +23,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // font-size: ;
-    /* margin-left: 200px; */
     
     @media screen and (min-width: 768px) {
         margin-left: 250px;

@@ -11,7 +11,6 @@
 .header-wrap {
     display: flex;
     align-items: baseline;
-    // justify-content: center;
 }
 
 .logo-header {
@@ -48,7 +47,6 @@
 .navigation_list {
     list-style: none;
     margin-top: 24px;
-    // background: #fff;
 }
 
 .navigation_item {
@@ -82,8 +80,6 @@
 
 .navigation_link:hover {
     color: #111;
-    // color: var(--text-hover);
-    // background: var(--maim-bg-color-and-border);
 }
 
 .current {

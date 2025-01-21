@@ -34,8 +34,6 @@ function createCard(data) {
     portfolioList.insertAdjacentHTML("beforeend", markup);  
 }
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
     fetch("./data.json")
         .then((response) => response.json())

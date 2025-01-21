@@ -1,9 +1,9 @@
 .container.gitHub {
-    display: flex; /* Включаємо Flexbox */
-    flex-direction: column; /* Розташовуємо елементи вертикально */
-    align-items: center; /* Вирівнюємо по горизонталі */
-    justify-content: center; /* Вирівнюємо по вертикалі */
-    text-align: center; /* Центруємо текст */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #github-profile {
@@ -55,23 +55,6 @@
 #github-contributions {
     margin-top: 20px;
 }
-
-// #contributions-calendar {
-//     display: grid;
-//     grid-template-columns: repeat(53, 1fr);
-//     /* 53 тижні в році, кожен елемент по 1fr */
-//     grid-gap: 2px;
-// }
-
-// #contributions-calendar div {
-//     width: 10px;
-//     height: 10px;
-//     margin: 1px;
-//     background-color: #ebedf0;
-//     /* колір для відсутніх контрибуцій */
-//     border-radius: 2px;
-//     border: 1px solid #ddd;
-// }
 
 #contributions-calendar {
     display: flex;

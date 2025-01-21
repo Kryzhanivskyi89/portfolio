@@ -60,7 +60,6 @@
 }
 
 .card:hover .face.face1 {
-    // background: #ff0057;
     transform: translateY(0);
     transition: 500ms;
 }
@@ -82,41 +81,9 @@
     margin-bottom: 10px;
     text-decoration: none;
 }
-.container .card .face.face1 .content {
-    // transition: 0.5s;
-}
-
-.container .card:hover .face.face1 .content {
-    // opacity: 1;
-}
-
-.container .card .face.face2 .content p {
-    // margin: 0;
-    // padding: 0;
-}
-
-.container .card .face.face2 .content a {
-    // margin: 15px 0 0;
-    // display: inline-block;
-    // text-decoration: none;
-    // font-weight: 900;
-    // color: #333;
-    // padding: 5px;
-    // border: 1px solid #333;
-}
-
-// .face.face2  {
-//     background: #333;
-//     color: #fff;
-// }
 
 .portfolioImage {
     top: 0;
     height: 300px;
     object-fit: fill;
-    /* width: 500px; */
-    /* @media screen and (min-width: 768px) {
-        width: 500px;
-        
-    } */
 }

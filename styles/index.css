@@ -1,8 +1,6 @@
 @charset "UTF-8";
 @import '~node_modules/modern-normalize/modern-normalize.css';
 body {
-  background-color: #FEFEFE;
-  color: #2c2c2c;
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
@@ -298,7 +296,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-left: 200px; */
 }
 @media screen and (min-width: 768px) {
   .hero-wrap {
@@ -387,7 +384,6 @@ img {
   background: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: "Montserrat", sans-serif;
   transform: translateY(50px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
@@ -439,7 +435,6 @@ img {
   background: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: "Montserrat", sans-serif;
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease-out, transform 1s ease-out;
@@ -640,11 +635,11 @@ img {
 }
 
 .container.gitHub {
-  display: flex; /* Включаємо Flexbox */
-  flex-direction: column; /* Розташовуємо елементи вертикально */
-  align-items: center; /* Вирівнюємо по горизонталі */
-  justify-content: center; /* Вирівнюємо по вертикалі */
-  text-align: center; /* Центруємо текст */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #github-profile {
@@ -741,7 +736,6 @@ img {
   background: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: "Montserrat", sans-serif;
   transform: translateY(50px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
@@ -857,11 +851,6 @@ img {
   height: 300px;
   -o-object-fit: fill;
      object-fit: fill;
-  /* width: 500px; */
-  /* @media screen and (min-width: 768px) {
-      width: 500px;
-
-  } */
 }
 
 .footer-content {
@@ -895,6 +884,7 @@ img {
     margin-right: 100px;
   }
 }
+
 .footer-contacts-title {
   text-align: center;
   margin-bottom: 10px;
