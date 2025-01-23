@@ -1,3 +1,7 @@
+#about {
+    background-color: #F5F5F5;
+}
+
 .about-title {
     font-weight: 600;
     line-height: 1.3;
@@ -21,13 +25,11 @@
     line-height: 1.5;
     text-align: justify;
     color: #333;
-    margin: 20px 0;
+    margin-bottom: 20px;
     padding: 20px;
-    background: #f9f9f9;
+    background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    // font-family: 'Montserrat', sans-serif;
-    transform: translateY(50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 
     @media screen and (min-width: 768px) {

@@ -2,6 +2,8 @@
     font-weight: 600;
     line-height: 1.3;
     text-align: center;
+    color: #0056b3;
+    text-transform: uppercase;
 
     @media screen and (min-width: 768px) {
         font-size: 40px;
@@ -13,12 +15,8 @@
     }
 }
 
-.achievements-description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
-    color: #333;
+.achievements-item {
+    
     margin: 20px 0;
     padding: 20px;
     background: #f9f9f9;
@@ -26,7 +24,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     // font-family: 'Montserrat', sans-serif;
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(100px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 
     @media screen and (min-width: 768px) {
@@ -38,15 +36,28 @@
     }
 }
 
-
-.achievements-description.visible {
+.achievements-item.visible {
     opacity: 1;
     transform: translateY(0);
 }
 
-.achievements-description,
-.achievements-title {
-    margin-bottom: 15px;
+.achievements-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align:justify;
     color: #0056b3;
-    text-transform: uppercase;
+    
+}
+
+.pre-strengths {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #0056b3;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: left;
+    margin-right: 20px;
+    flex-shrink: 0;
+    // text-transform: uppercase;
 }
