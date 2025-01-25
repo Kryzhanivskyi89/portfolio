@@ -7,6 +7,13 @@
         "description": "Optimized online store with responsive design, integration with Cloudinary API, and server-based architecture for order processing."
         },
         {
+        "title": "Calendar",
+        "image": "./images/Calendar.png",
+        "src": "https://kryzhanivskyi89.github.io/calendar_addax/",
+        "technology": "React, TypeScript, React DnD, React Hooks.",
+        "description": "An interactive calendar displaying holidays for Ukraine and other countries. Features include: Month and Week Views (week starts on Monday). Add, edit, delete, and drag-and-drop events. Holiday search and long weekend highlights. LocalStorage synchronization."
+        },
+        {
         "title": "Mriya CRM",
         "image": "./images/mriya.png",
         "src": "",
