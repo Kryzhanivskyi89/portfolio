@@ -22,15 +22,29 @@
 
 .portfolio {
     display: block;
-
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    
     @media screen and (min-width: 768px) {
         display: grid;
-        grid-template-columns: repeat(2, minmax(275px, 1fr));
-        grid-gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        max-width: 768px;
+        margin:  auto;
+        // padding: 0 30px;
     }
-
-    @media screen and (min-width: 1278px) {
-        grid-template-columns: repeat(3, minmax(275px, 1fr));
+    
+    @media screen and (min-width: 1024px) {
+        max-width: 1024px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+    }
+    
+    @media screen and (min-width: 1280px) {
+        max-width: 1200px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
     }
 }
 
@@ -62,6 +76,30 @@
     transform: translateY(-200px);
 }
 
+.card {
+    width: 100%; 
+    max-width: 450px;
+    margin: 0 auto;
+    // @media screen and (min-width: 600px) {
+    //     width: 350px;
+    // }
+    
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        max-width: none; 
+    }
+    
+    
+    @media screen and (min-width: 1024px) {
+        width: 340px;
+    }
+    
+   
+    @media screen and (min-width: 1280px) {
+        width: 365px;
+    }
+   
+}
 .card:hover .face.face1 {
     transform: translateY(0);
     transition: 500ms;
@@ -87,6 +125,7 @@
 
 .portfolioImage {
     top: 0;
-    height: 300px;
     object-fit: fill;
+    height: 300px;
+    
 }
