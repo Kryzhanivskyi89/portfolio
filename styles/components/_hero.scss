@@ -6,13 +6,16 @@
     /* height: 100vh; */
     background-image: 
         linear-gradient(
-            rgba(30, 71, 118, 0.5),
-            rgba(30, 71, 118, 0.5),
-            rgba(21, 84, 157, 0.5)
+            rgba(20, 40, 60, 0.5), 
+            rgba(20, 40, 60, 0.5)
+            // rgba(30, 71, 118, 0.5),
+            // rgba(30, 71, 118, 0.5),
+            // rgba(21, 84, 157, 0.5)
         ),
         url("../images/hero-2.jpg");
     background-size: cover;
     background-position: center;
+    
     @media screen and (min-width: 768px) {
         top: 0px;
     };
