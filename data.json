@@ -14,6 +14,13 @@
         "description": "An interactive calendar displaying holidays for Ukraine and other countries. Features include: Month and Week Views (week starts on Monday). Add, edit, delete, and drag-and-drop events. Holiday search and long weekend highlights. LocalStorage synchronization."
         },
         {
+        "title": "Booking",
+        "image": "./images/booking.png",
+        "src": "https://kryzhanivskyi89.github.io/booking-frontend/",
+        "technology": "React, Redux Toolkit, React Router, Axios, Node.js, Express, MongoDB, Mongoose, Render, GitHub Pages, CSS Modules",
+        "description": "Booking App — a full-stack SPA with two user roles: “client” and “business”. Features include JWT authentication, protected routes, and full CRUD for service bookings. Backend built with Express + MongoDB. Deployed on GitHub Pages (frontend) and Render (backend)."
+        },
+        {
         "title": "Mriya CRM",
         "image": "./images/mriya.png",
         "src": "",
