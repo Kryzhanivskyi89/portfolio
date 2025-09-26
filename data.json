@@ -7,10 +7,17 @@
         "description": "Optimized online store with responsive design, integration with Cloudinary API, and server-based architecture for order processing."
         },
         {
+        "title": "Confidential Military System",
+        "image": "",
+        "src": "",
+        "technology": "React.js, Nest.js, Mongo.DB, TypeScript, MUI, Leaflet, GitLab.",
+        "description": "Development and implementation of a situational awareness system with an interactive mapping platform to provide real-time monitoring of unmanned aerial vehicles (UAVs) with the possibility of further expansion of functionality for coordination of infantry units."
+        },
+        {
         "title": "Buy-all store",
-        "image": "./images/buy-all-store.png",
+        "image": "./images/shop.png",
         "src": "https://buy-all.store",
-        "technology": "Nest.js, PostgreSQL, TypeScript, GitLab.",
+        "technology": "Nest.js, Next.js, PostgreSQL, TypeScript, GitLab.",
         "description": "This project is a product image update system for an existing e-commerce database. It features a complete processing pipeline — from Excel parsing to WebP image optimization, file existence checks, local storage, and database updates. The parser is adapted to handle non-standard Excel formats, dynamically detects columns, cleans data, and avoids duplication. Images are saved under unique UUID-based names for consistency and predictability. Additionally, the system automatically enables hidden product categories to ensure visibility on the website."
         },
         {
