@@ -845,6 +845,20 @@ img {
   display: block;
 }
 
+.projects {
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.projects-list {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.archievements {
+  font-weight: normal;
+}
+
 .answer:last-child {
   margin-bottom: 0;
 }

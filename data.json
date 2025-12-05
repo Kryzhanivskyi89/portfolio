@@ -7,6 +7,13 @@
         "description": "Optimized online store with responsive design, integration with Cloudinary API, and server-based architecture for order processing."
         },
         {
+        "title": "AgroLabTest",
+        "image": "./images/AgroLabTest.png",
+        "src": "https://kryzhanivskyi89.github.io/insecticides-research/",
+        "technology": "React.js, Redux Toolkit, Node.js, Express, Mongo.DB, html2pdf",
+        "description": "AgroLabTest — Full-Stack system for automating laboratory research on bioinsecticides. Registration of acts, dynamic sample accounting, automatic efficiency calculations, centralized database with analytics and PDF export. 60% time reduction, democratization of knowledge, production-ready arch. Used in real laboratories for working with closed data."
+        },
+        {
         "title": "Confidential Military System",
         "image": "",
         "src": "",

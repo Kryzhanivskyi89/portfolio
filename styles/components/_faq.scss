@@ -1,3 +1,183 @@
+
+// .faq-wrapper {
+//   padding: 40px 0 60px;
+//   background-color: var(--main-bg);
+// }
+
+// .faq-title {
+//   margin-bottom: 32px;
+//   font-weight: 700;
+//   font-size: 28px;
+//   line-height: 1.2;
+//   text-align: center;
+//   color: #0056b3;
+//   text-transform: none;
+//   letter-spacing: 0.04em;
+
+//   @media screen and (min-width: 768px) {
+//     font-size: 36px;
+//   }
+
+//   @media screen and (min-width: 1280px) {
+//     font-size: 44px;
+//     font-weight: 800;
+//   }
+// }
+
+// .faq-list {
+//   margin: 0 auto 40px;
+//   padding: 0;
+//   list-style: none;
+//   max-width: 900px;
+// }
+
+// .faq-item {
+//   padding: 20px 0;
+//   border-top: 1px solid rgba(0, 86, 179, 0.25);
+// }
+
+// .faq-item:last-child {
+//   padding-bottom: 0;
+//   border-bottom: 1px solid rgba(0, 86, 179, 0.25);
+// }
+
+// .faq-button {
+//   width: 100%;
+//   display: flex;
+//   align-items: flex-start;
+//   gap: 12px;
+//   background: transparent;
+//   border: none;
+//   cursor: pointer;
+//   padding: 0;
+//   text-align: left;
+//   transition: color 200ms ease, transform 200ms ease;
+// }
+
+// .faq-button:focus-visible {
+//   outline: 2px solid #0056b3;
+//   outline-offset: 4px;
+// }
+
+// .faq-button:hover .faq-question,
+// .faq-button:focus-visible .faq-question {
+//   color: #003d80;
+// }
+
+// .faq-icon-wrapper {
+//   flex-shrink: 0;
+//   width: 32px;
+//   height: 32px;
+//   border-radius: 999px;
+//   border: 1px solid rgba(0, 86, 179, 0.5);
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: rgba(0, 86, 179, 0.04);
+//   transition: background-color 200ms ease, border-color 200ms ease,
+//     transform 200ms ease;
+// }
+
+// .faq-button:hover .faq-icon-wrapper,
+// .faq-button:focus-visible .faq-icon-wrapper {
+//   background-color: rgba(0, 86, 179, 0.08);
+//   border-color: #0056b3;
+//   transform: translateY(-1px);
+// }
+
+// .icon-plus,
+// .icon-minus {
+//   transition: opacity 150ms ease, transform 150ms ease;
+// }
+
+// /* question text */
+
+// .faq-question {
+//   flex: 1;
+//   font-family: 'Fira Sans', system-ui, -apple-system, BlinkMacSystemFont,
+//     'Segoe UI', sans-serif;
+//   font-weight: 600;
+//   font-size: 18px;
+//   line-height: 1.4;
+//   color: #0056b3;
+//   text-transform: none;
+//   letter-spacing: 0.01em;
+//   text-align: left;
+
+//   @media screen and (min-width: 768px) {
+//     font-size: 20px;
+//   }
+
+//   @media screen and (min-width: 1280px) {
+//     font-size: 22px;
+//   }
+// }
+
+// /* general answer wrapper */
+
+// .faq-answer {
+//   display: none;
+//   margin-top: 14px;
+//   padding-left: 44px; /* щоб текст починався під питанням, не під іконкою */
+
+//   @media screen and (min-width: 768px) {
+//     margin-top: 16px;
+//   }
+// }
+
+// .faq-answer.show {
+//   display: block;
+// }
+
+// /* параграфи відповіді */
+
+// .answer {
+//   display: none;
+//   font-family: 'Fira Sans', system-ui, -apple-system, BlinkMacSystemFont,
+//     'Segoe UI', sans-serif;
+//   font-size: 16px;
+//   line-height: 1.6;
+//   margin-bottom: 14px;
+//   color: #173d33;
+//   text-align: left;
+//   max-width: 70ch; /* комфортна ширина для читання */
+
+//   @media screen and (min-width: 1280px) {
+//     font-size: 18px;
+//     margin-bottom: 18px;
+//   }
+// }
+
+// .answer.show {
+//   display: block;
+// }
+
+// .answer:last-child {
+//   margin-bottom: 0;
+// }
+
+// /* списки усередині відповіді */
+
+// .faq-answer ul {
+//   margin: 8px 0 16px 18px;
+//   padding-left: 0;
+// }
+
+// .faq-answer li {
+//   margin-bottom: 8px;
+// }
+
+// .faq-answer li:last-child {
+//   margin-bottom: 0;
+// }
+
+// /* приховування/показ іконок */
+
+// .hidden {
+//   display: none;
+// }
+
+
 .faq-wrapper {
     padding: 18px 0;
     background-color: var(--main-bg);
@@ -93,6 +273,21 @@
 
   .answer.show {
     display: block;
+  }
+
+  .projects {
+    font-weight: bold;
+    margin-top: 12px;
+  }
+  
+  .projects-list {
+    list-style: none;
+    margin-left: 20px;
+    
+  }
+
+  .archievements {
+    font-weight: normal;
   }
   
   .answer:last-child {
