@@ -7,6 +7,13 @@
         "description": "Optimized online store with responsive design, integration with Cloudinary API, and server-based architecture for order processing."
         },
         {
+        "title": "Private Donor Match — Zama FHEVM",
+        "image": "./images/PrivateDonorMatch.png",
+        "src": "https://kryzhanivskyi89.github.io/PrivateDonorMatch/",
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script",
+        "description": "Private Donor Match — Zama FHEVM: Demo Web3 application for private matching of donors and recipients on Ethereum (Sepolia) with custom styles, modern layout, and integration of FHEVM Relayer SDK and Metamask."
+        },
+        {
         "title": "AgroLabTest",
         "image": "./images/AgroLabTest.png",
         "src": "https://kryzhanivskyi89.github.io/insecticides-research/",
