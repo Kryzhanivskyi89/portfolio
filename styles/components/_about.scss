@@ -1,7 +1,7 @@
 #about {
     background-color: #F5F5F5;
     margin-top: 100px;
-
+    
     @media screen and (min-width: 768px) {
         margin-top: 0px;
     };
@@ -13,6 +13,7 @@
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
+    color: var(--main);
     
     @media screen and (min-width: 768px) {
         font-size: 40px;
@@ -29,7 +30,7 @@
     font-size: 18px;
     line-height: 1.5;
     text-align: justify;
-    color: #333;
+    color: var(--text-main);
     margin-bottom: 20px;
     padding: 20px;
     background: #fff;
@@ -44,11 +45,6 @@
     @media screen and (min-width: 1278px) {
         font-size: 22px;
     }
-}
-
-.about,
-.about-title {
-    color: #0056b3;
 }
 
 .about p {

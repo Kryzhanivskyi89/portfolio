@@ -22,8 +22,8 @@ function createCard(data) {
                     <div class="face face2">
                         <div class="content">
                             <h3 class="content__title">${title}</h3>
-                            <div class="descr"><p >${technology}</div></p>
-                            <div class="descr"><p >${description}</div></p>
+                            <div><p class="descr">${technology}</div></p>
+                            <div><p class="descr">${description}</div></p>
                         </div>
                     </div>
                 </a>

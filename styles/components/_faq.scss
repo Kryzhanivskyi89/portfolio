@@ -178,10 +178,10 @@
 // }
 
 
-.faq-wrapper {
-    padding: 18px 0;
-    background-color: var(--main-bg);
-  }
+// .faq-wrapper {
+//     padding: 18px 0;
+//     // background-color: var(--main-bg);
+//   }
   
   .faq-title {
     font-weight: 600;
@@ -261,7 +261,7 @@
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 16px;
-  color: #0056b3;
+  color: var(--text-main);
   text-align: justify;
   font-family: 'Fira Sans';
 

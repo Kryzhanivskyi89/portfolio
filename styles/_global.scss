@@ -1,6 +1,13 @@
 
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
+
+:root {
+    --main: #0056b3;
+    --text-main: #585d66;
+    // --text-heading: #dbeafe;
+   
+  }
 html, 
 body {
     font-family: "Roboto", sans-serif;

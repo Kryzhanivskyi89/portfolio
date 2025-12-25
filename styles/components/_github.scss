@@ -27,6 +27,10 @@
     }
 }
 
+.gitHub-stats {
+    color: var(--text-main);
+}
+
 #github-profile img {
     display: block;
     margin-bottom: 10px;
@@ -52,6 +56,7 @@
 
 #github-contributions {
     margin-top: 20px;
+   color: var(--text-main);
 }
 
 #contributions-calendar {
