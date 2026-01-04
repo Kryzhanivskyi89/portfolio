@@ -62,13 +62,13 @@ function displayGitHubContributions(data) {
   // Create grid for the entire year (7 days × 53 weeks)
   const grid = Array.from({ length: 7 }, () => Array(53).fill(0));
 
-  // Set fixed start date for 2025
-  const yearStart = new Date(2025, 0, 1); // January 1, 2025 (Wednesday)
-  const yearEnd = new Date(2025, 11, 31);
+  // Set fixed start date for 2026
+  const yearStart = new Date(2026, 0, 1); // January 1, 2026 (Wednesday)
+  const yearEnd = new Date(2026, 11, 31);
   
   // Calculate offset for the first week
-  // Since January 1, 2025 is Wednesday, offset is 2 (Monday = 0, Tuesday = 1, Wednesday = 2)
-  const firstDayOffset = 2;
+  // Since January 1, 2026 is Wednesday, offset is 2 (Monday = 0, Tuesday = 1, Wednesday = 2)
+  const firstDayOffset = 3;
 
   // Process each contribution
   data.contributions.forEach(contribution => {

@@ -3,6 +3,7 @@
         "title": "Switlana-Cake",
         "image": "./images/Switlana-cake.png",
         "src": "https://switlana-cakes.vercel.app/",
+        "category": "landing",
         "technology": "HTML5, SCSS, Java Script, Claidinary API, Node.js, MongoDB, NodeMailer, Vercel, Render",
         "description": "Optimized online store with responsive design, integration with Cloudinary API, and server-based architecture for order processing."
         },
@@ -10,6 +11,7 @@
         "title": "Private Donor Match — Zama FHEVM",
         "image": "./images/PrivateDonorMatch.png",
         "src": "https://kryzhanivskyi89.github.io/PrivateDonorMatch/",
+        "category": "dApps",
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script",
         "description": "Private Donor Match — Zama FHEVM: Demo Web3 application for private matching of donors and recipients on Ethereum (Sepolia) with custom styles, modern layout, and integration of FHEVM Relayer SDK and Metamask."
         },
@@ -17,6 +19,7 @@
         "title": "AgroLabTest",
         "image": "./images/AgroLabTest.png",
         "src": "https://kryzhanivskyi89.github.io/insecticides-research/",
+        "category": "app",
         "technology": "React.js, Redux Toolkit, Node.js, Express, Mongo.DB, html2pdf",
         "description": "AgroLabTest — Full-Stack system for automating laboratory research on bioinsecticides. Registration of acts, dynamic sample accounting, automatic efficiency calculations, centralized database with analytics and PDF export. 60% time reduction, democratization of knowledge, production-ready arch. Used in real laboratories for working with closed data."
         },
@@ -24,6 +27,7 @@
         "title": "Confidential Military System",
         "image": "",
         "src": "",
+        "category": "app",
         "technology": "React.js, Nest.js, Mongo.DB, TypeScript, MUI, Leaflet, GitLab.",
         "description": "Development and implementation of a situational awareness system with an interactive mapping platform to provide real-time monitoring of unmanned aerial vehicles (UAVs) with the possibility of further expansion of functionality for coordination of infantry units."
         },
@@ -31,6 +35,7 @@
         "title": "Buy-all store",
         "image": "./images/shop.png",
         "src": "https://buy-all.store",
+        "category": "app",
         "technology": "Nest.js, Next.js, PostgreSQL, TypeScript, GitLab.",
         "description": "This project is a product image update system for an existing e-commerce database. It features a complete processing pipeline — from Excel parsing to WebP image optimization, file existence checks, local storage, and database updates. The parser is adapted to handle non-standard Excel formats, dynamically detects columns, cleans data, and avoids duplication. Images are saved under unique UUID-based names for consistency and predictability. Additionally, the system automatically enables hidden product categories to ensure visibility on the website."
         },
@@ -38,6 +43,7 @@
         "title": "Calendar",
         "image": "./images/Calendar.png",
         "src": "https://kryzhanivskyi89.github.io/calendar_addax/",
+        "category": "app",
         "technology": "React, TypeScript, React DnD, React Hooks.",
         "description": "An interactive calendar displaying holidays for Ukraine and other countries. Features include: Month and Week Views (week starts on Monday). Add, edit, delete, and drag-and-drop events. Holiday search and long weekend highlights. LocalStorage synchronization."
         },
@@ -45,6 +51,7 @@
         "title": "Booking",
         "image": "./images/booking.png",
         "src": "https://kryzhanivskyi89.github.io/booking-frontend/",
+        "category": "app",
         "technology": "React, Redux Toolkit, React Router, Axios, Node.js, Express, MongoDB, Mongoose, Render, GitHub Pages, CSS Modules",
         "description": "Booking App — a full-stack SPA with two user roles: “client” and “business”. Features include JWT authentication, protected routes, and full CRUD for service bookings. Backend built with Express + MongoDB. Deployed on GitHub Pages (frontend) and Render (backend)."
         },
@@ -52,6 +59,7 @@
         "title": "Mriya CRM",
         "image": "./images/mriya.png",
         "src": "",
+        "category": "crm",
         "technology": "Next.js, Type Script, React-hook-form, Redux, RTK-Juery, MaterialUA",
         "description": "CRM system for beauty salon Mriya: created an intuitive interface, implemented key components such as customer, employee, and service management. I optimised performance with Next.js, TypeScript, and Material-UI, ensuring stable operation of the system and integration with the Python and PostgreSQL backend"
         },
@@ -59,6 +67,7 @@
         "title": "So Yummy",
         "image": "./images/so-yummy.png",
         "src": "https://vitalij99.github.io/recipes5/",
+        "category": "app",
         "technology": "React, Redux, RESTful API, Node.js, Express, MongoDb, mongoose, jsonwebtoken",
         "description": "A team project for an application dedicated to creating and managing unique recipes. My role focused on backend development, particularly user authorization and registration using Express and MongoDB. The application includes features like a shopping list, ingredient calculations, and the ability to save and categorize favorite recipes, all managed via Redux."
         },
@@ -66,6 +75,7 @@
         "title": "Phonebook",
         "image": "./images/Phonebook.jpg",
         "src": "https://kryzhanivskyi89.github.io/goit-react-hw-08-phonebook/",
+        "category": "app",
         "technology": "React Hooks · Webpack · Redux.js · React.js · JSON · Routing · npm · Material-UI · Express.js · MongoDB · Render",
         "description": "This project is a full-stack phonebook app for managing contacts. It features secure user authentication and authorization, contact management (add, edit, delete), and MongoDB integration. The app is deployed on a hosting platform, overcoming authorization challenges and ensuring consistent functionality. Input handling and data validation were optimized for a better user experience."
     },
@@ -73,6 +83,7 @@
         "title": "Movies",
         "image": "./images/movies.jpg",
         "src": "https://kryzhanivskyi89.github.io/goit-react-hw-05-movies/",
+        "category": "app",
         "technology": "React Hooks · Webpack · React.js · JSON · Routing · npm · Axios",
         "description": "This project simplifies searching for and viewing movie information. Users can discover popular movies, search by various criteria, and view detailed movie pages. Developed a homepage for popular movies and a search page for individual movie details. Integrated web routing for smooth navigation and used hooks for state management. Conducted asynchronous fetch requests to retrieve movie data."
     },
@@ -80,6 +91,7 @@
         "title": "News",
         "image": "./images/News.png",
         "src": " https://petrov-tech.github.io/team-project-news/",
+        "category": "app",
         "technology": "Scrum · Agile Methodologies · JSON · npm · Figma (Software) · Trello · Axios · JavaScript · Cascading Style Sheets (CSS)",
         "description": "A frontend service that allows users to search for news from reputable sources based on queries, popular trends, and dates. The application includes functionality to save and categorize favorite and read articles, with a focus on user experience through light and dark themes, a weather widget, and a date display. I was responsible for implementing the logic for managing favorite articles."
     },
@@ -87,6 +99,7 @@
         "title": "Country",
         "image": "./images/country.jpeg",
         "src": "https://country-next-pi.vercel.app/",
+        "category": "app",
         "technology": "Next.js, Type Script, Node.js, Expres.js, Vercel",
         "description": "This repository contains two small applications for displaying country information, built with Node.js (Express.js) for the Backend (BE) and React.js (Next.js) for the Frontend (FE). The project allows users to view a list of available countries and detailed information about each one, including border countries, population data, and country flags"
         },
@@ -94,6 +107,7 @@
         "title": "Barber Shop",
         "image": "./images/barberShop.jpeg",
         "src": "https://kryzhanivskyi89.github.io/barberShop/",
+        "category": "landing",
         "technology": "Git, Cascading Style Sheets (CSS), HTML5, Java Script, Figma (Software)",
         "description": "Pet project: This project is a responsive landing page for a barber shop, created with the user experience in mind on different devices. It includes support for mobile, tablet, and desktop screens, and is also optimized for retina displays. The landing page has an interactive booking form that provides a simple and intuitive ordering of services"
         },
@@ -101,6 +115,7 @@
         "title": "Ecosolutions",
         "image": "./images/Ecosolutions.png",
         "src": "https://kryzhanivskyi89.github.io/ecosolution/",
+        "category": "landing",
         "technology": "React, WebPack, Git, CSS, HTML",
         "description": "Pet project: A responsive landing page for a company specializing in alternative energy sources. I implemented a dynamic slider showcasing works, an energy meter, a feedback form, and a burger menu. This project emphasized the importance of user experience and responsive design."
         },
@@ -108,6 +123,7 @@
         "title": "Foodsta",
         "image": "./images/FoodSta2x.png",
         "src": " https://petrov-tech.github.io/team13-proj-foodsta/",
+        "category": "landing",
         "technology": "Parcel · Git · Cascading Style Sheets (CSS) · Scrum · Agile Methodologies · HTML5 · JavaScript · Figma (Software) · Trello",
         "description": "Team project: website of a cafe where the most delicious food is prepared. Developed buttons and was responsible for the responsive header in the mobile-first layout. Helped colleagues in coding and solving difficulties with unfavourable deadlines. Effective communication via messengers and daily meetings."
     },
@@ -115,10 +131,279 @@
         "title": "WebStudio",
         "image": "./images/web-studiia.jpeg",
         "src": "https://kryzhanivskyi89.github.io/goit-markup-hw-08/ ",
+        "category": "landing",
         "technology": "Git, Cascading Style Sheets (CSS), HTML5, Java Script, Figma (Software)",
         "description": "Pet project: A personal project showcasing a landing page for a company offering IT solutions. The site features the company’s portfolio, team member profiles, unique selling points, and a newsletter subscription form. I focused on creating a visually appealing, adaptive layout that ensures an optimal user experience across all devices."
+    },
+
+   {
+        "title": "Health Metric Zone",
+        "image": "./images/HealthMetricZone.png",
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_43_HealthMetricZone/",
+        "category": "dApps",
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0-5, HTML5, CSS, Java Script",
+        "description": "Health Metric Zone is a privacy-first FHE application that allows users to submit encrypted vital metrics (for example: heart rate and blood pressure). The smart contract computes a zonal classification (“normal”, “warning”, “danger”) homomorphically and returns only that zone code — the raw measurements never leave users’ private domain. Users retain decryption rights over their own ciphertexts; the contract and admins can only operate on encrypted values and optionally mark results public for auditing. This preserves medical privacy while enabling automated, auditable on-chain decisions."
+        },
+        {
+        "title": "Hidden Performance Bonus",
+        "image": "./images/HiddenPerformanceBonus.png",
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_44_HiddenPerformanceBonus/",
+        "category": "dApps",
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script",
+        "description": "Hidden Performance Bonus lets employees submit encrypted KPI metrics to determine performance bonuses without exposing raw data. The smart contract compares encrypted KPI inputs against encrypted thresholds or targets and outputs only a bonus tier code (0–3). Employees keep full control over their encrypted inputs and can privately decrypt the final tier; HR sees only the assigned tier code for payroll decisions."
+        },
+        {
+        "title": "League Placement Shadow",
+        "image": "./images/LeaguePlacementShadow.png",
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_45_LeaguePlacementShadow/",
+        "category": "dApps",
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script",
+        "description": "League Placement Shadow lets competitive players submit encrypted tournament points, while the contract assigns league placement homomorphically (Iron / Bronze / Silver / Gold). The system only reveals the league code; raw points are never exposed on-chain. Players can privately decrypt their placement to see the exact score if desired. This approach guarantees fair ranking without compromising player statistics or revealing sensitive ranking data publicly."
+        },
+        { "title": "Probability Twist Wheel — Zama FHEVM DApp", 
+        "image": "./images/ProbabilityTwistWheel.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_46_ProbabilityTwistWheel/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Probability Twist Wheel lets users submit an encrypted “risk stake” (0–100) and receive a privacy-preserving outcome for a roulette-style draw. The frontend generates a cryptographically-random value (0–99), encrypts it via the relayer, and the contract compares the encrypted stake and random to compute win/lose and reward tier under FHE. Only the encrypted result handle is stored and optionally made public; neither stake nor generated randomness are revealed. This allows provably fair and private games using FHE." 
+    },
+    {   
+        "title": "Secret Risk Map — Zama FHEVM DApp", 
+        "image": "./images/SecretRiskMap.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_47_SecretRiskMap/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Secret Risk Map lets players submit encrypted map coordinates and verifies safety against encrypted thresholds on-chain. The smart contract evaluates encrypted X/Y against encrypted region thresholds and returns only a risk code (`safe` / `risky` / `dangerous`) as an encrypted handle. The map and thresholds remain secret, enabling private geolocation-based gameplay or routing without exposing either user coordinates or the risk map. Users can decrypt only their own outcome handle, preserving full privacy." 
+    },
+    {   
+        "title": "Hidden Grade Release — Zama FHEVM DApp", 
+        "image": "./images/HiddenGradeRelease.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_48_HiddenGradeRelease/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script",
+        "description": "Hidden Grade Release allows students to submit encrypted test scores; the contract computes the final numeric sum and maps it to a grade (A/B/C/F) homomorphically. The contract stores only encrypted grade and pass flag handles while the full numeric total remains encrypted and only decryptable by the student. This enables privacy-preserving grading and public/non-public release policies for grade transparency. The design is suitable for institutions wanting verifiable but private workflows." 
+    },
+    {   
+        "title": "Private Cashback Tier — Zama FHEVM DApp",
+        "image": "./images/PrivateCashbackTier.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_49_PrivateCashbackTier/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Private Cashback Tier lets users privately encrypt their card turnover and receive an encrypted cashback tier result (1% / 2% / 3%). The contract evaluates encrypted turnover against thresholds and stores only the encrypted tier handle; no raw turnover figures are revealed. Users can decrypt their tier privately; they may optionally make it public for marketing or verification. This flow supports privacy-first loyalty programs." 
+    },
+    {   
+        "title": "Encrypted Dice Arena — Zama FHEVM DApp", 
+        "image": "./images/EncryptedDiceArena.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_50_EncryptedDiceArena/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Encrypted Dice Arena allows users to encrypt their dice roll (1–6) and play against a bot whose roll is also encrypted by the frontend per-game. The contract compares both encrypted rolls and returns only an encrypted result: `0 = lose`, `1 = draw`, `2 = win`. Neither player nor bot rolls are revealed on-chain; players can privately decrypt their result or make it public for verification. This simplicity ensures fairness with complete privacy." 
+    },
+    {   
+        "title": "FHE Secret Memory Match — Zama FHEVM DApp", 
+        "image": "./images/SecretMemoryMatch.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_51_SecretMemoryMatch/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "FHE Secret Memory Match lets an admin store a hidden encrypted pattern while players submit encrypted guesses. The contract compares attempts fully on encrypted data and returns only an encrypted match level, without revealing either the pattern or the guesses, enabling privacy-preserving memory and pattern-matching gameplay." 
+    },
+    {   
+        "title": "Blind Target Range — Zama FHEVM DApp", 
+        "image": "./images/BlindTargetRange.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_52_%20BlindTargetRange/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Blind Target Range lets an admin set an encrypted target interval on the X axis, while players submit encrypted shot coordinates. The contract compares encrypted X against the hidden interval and returns only an encrypted hit level: `center / near / far`, without revealing either the bounds or the attempts." 
+    },
+    {   
+        "title": "Encrypted Puzzle Steps — Zama FHEVM DApp", 
+        "image": "./images/EncryptedPuzzleSteps.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_53_EncryptedPuzzleSteps/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Encrypted Puzzle Steps lets players submit encrypted numbers of steps used to solve a puzzle. The contract maintains an encrypted per-player record of the minimum steps and returns only a flag `new record / not`, without revealing any raw values. This preserves competition while keeping performance metrics private." 
+    },
+    {   
+        "title": "Private Chess Rating Gate — Zama FHEVM DApp", 
+        "image": "./images/PrivateChessRatingGate.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_54_PrivateChessRatingGate/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Private Chess Rating Gate stores a player’s ELO rating encrypted on-chain and checks entrance conditions for private tournaments. For each tournament, the contract compares encrypted rating with an encrypted threshold and returns only `admitted / rejected`. This enables fully private rating-gated access control for events and leagues." 
+    },
+    {   
+        "title": "Hidden Door Code — Zama FHEVM DApp", 
+        "image": "./images/HiddenDoorCode.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_55_HiddenDoorCode/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Hidden Door Code stores an encrypted door code (1–9999) and lets players submit encrypted guesses. The contract returns only encrypted feedback: `correct / too low / too high`, preserving the secrecy of both the code and the attempts." 
+    },
+    {   
+        "title": "Private Coin Flipper vs House — Zama FHEVM DApp", 
+        "image": "./images/PrivateCoinFlipper.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_56_%20PrivateCoinFlipperVsHouse/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Private Coin Flipper vs House models an encrypted biased coin flop between the player and the house. The house stores an encrypted bias (heads/tails). The player submits an encrypted choice, and the contract returns only an encrypted outcome: `lose / win / push`, while maintaining an encrypted win counter." 
+    },
+    {   
+        "title": "Secret Weight Guess — Zama FHEVM DApp", 
+        "image": "./images/SecretWeightGuess.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_57_%20SecretWeightGuess/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Secret Weight Guess stores an encrypted “true weight” of an object. Players submit encrypted guesses, and the contract homomorphically computes how close they are, returning only `very close / close / far` as an encrypted level." 
+    },
+    {   
+        "title": "FHE Jackpot Threshold — Zama FHEVM DApp", 
+        "image": "./images/FHEJackpotThreshold.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_58_%20FHEJackpotThreshold/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "FHE Jackpot Threshold lets a system store an encrypted jackpot threshold and gives players binary feedback on progress. Players submit encrypted totals (deposits / points), and the contract returns only `jackpot ready / not yet` as an encrypted flag." 
+    },
+    {   
+        "title": "Encrypted Math Duel — Zama FHEVM DApp", 
+        "image": "./images/EncryptedMathDuel.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_59_EncryptedMathDuel/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Encrypted Math Duel is a confidential on-chain game where two players submit encrypted guesses to a hidden target number. The contract computes which player is closer using homomorphic operations, without ever revealing any of the numbers. Only an encrypted winner code (tie / player 1 / player 2) is exposed and later publicly decryptable."
+    },
+    {   
+        "title": "Secret Karaoke Score — Zama FHEVM DApp", 
+        "image": "./images/SecretKaraokeScore.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_60_SecretKaraokeScore/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Secret Karaoke Score lets a user compute a local “voice score” off-chain, encrypt it, and submit it to a confidential smart contract. The contract compares the encrypted score against Bronze, Silver, and Gold thresholds, which are handled homomorphically on-chain. Only the resulting tier (None/Bronze/Silver/Gold) is exposed to the user, never the raw score. " 
+    },
+    {   
+        "title": "Private Race Time — Zama FHEVM DApp", 
+        "image": "./images/PrivateRaceTime.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_61_PrivateRaceTime/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Private Race Time is a confidential personal-best tracker for race times measured in seconds. Each user submits encrypted race times, and the contract maintains an encrypted “best time” per runner using homomorphic comparisons. For each new submission, the contract returns only an encrypted flag indicating whether this run is a new personal best."
+    },
+    {   
+        "title": "Hidden Challenge Tier — Zama FHEVM DApp", 
+        "image": "./images/HiddenChallengeTier.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_62_HiddenChallengeTier/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Hidden Challenge Tier is a confidential progress-tracking dApp where players encrypt the number of completed challenges and send it to an FHEVM smart contract. The contract compares this encrypted value against encrypted thresholds and derives a tier without ever seeing the raw count. Only an encrypted tier code (None / Rookie / Pro / Legend) can be decrypted later through the relayer" 
+    },
+        
+    {   
+        "title": "Private Subscription Calibration — Zama FHEVM DApp", 
+        "image": "./images/PrivateSubscriptionCalibrator.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/82_PrivateSubscription/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Private Subscription Calibration is a decentralized, fully homomorphic encrypted subscription calibration dApp on Ethereum (Sepolia testnet) using Zama’s FHEVM protocol. All user preferences are encrypted, processed homomorphically on-chain, and only the final subscription plan is decrypted, enabling privacy-preserving personalization workflows." 
+    },
+        
+    {   
+        "title": "TinderDAO — Private Match — Zama FHEVM DApp", 
+        "image": "./images/TinderDAO.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/81_TinderDAOPrivateMatch/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "TinderDAO — Private Match is a confidential matching engine built on top of Zama’s FHEVM. It allows individuals to upload private dating profiles and search preferences while keeping all sensitive attributes encrypted at every stage. No plain data ever touches the blockchain — matching is computed homomorphically." 
+    },
+        
+    {   
+        "title": "Private Contribution Rewards — Zama FHEVM DApp", 
+        "image": "./images/PrivateContributionRewards.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/83_PrivateContributionRewards/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Private Contribution Rewards lets contributors submit encrypted scores to open-source projects. The total score stays private until the project chooses to reveal it. This enables confidential yet verifiable contribution tracking for open-source ecosystems." 
+    },
+        
+    {   
+        "title": "Private Trust Chain — Zama FHEVM DApp", 
+        "image": "./images/PrivateTrustChain.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/84_PrivateTrustChain/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Private Trust Chain is a decentralized fully homomorphic encrypted matchmaking dApp on Ethereum (Sepolia testnet) using Zama’s FHEVM protocol. Profiles and preferences are encrypted, matched on-chain, and only the final match result is decryptable. No data leaks, no exposure of personal information." 
+    },
+        
+    {   
+        "title": "Private DAO Reporting — Zama FHEVM DApp", 
+        "image": "./images/PrivateDAOReporting.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/85_PrivateDAOReporting/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Private DAO Reporting is a decentralized FHEVM-powered dApp for encrypted governance and analytics. Members submit encrypted metrics or votes, and the contract aggregates them on-chain without ever seeing plaintext, revealing only the final encrypted signals needed for decisions." 
+    },
+        
+    {   
+        "title": "Encrypted Certification Filter — Zama FHEVM DApp", 
+        "image": "./images/EncryptedCertificationFilter.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/80_EncryptedCertificationFilter/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Encrypted Certification Filter implements privacy-preserving aggregation of qualification levels. Users submit encrypted levels, the contract aggregates them on-chain, but never sees any plaintext, enabling confidential skill and certification analytics." 
+    },
+        
+    {   
+        "title": "Confidential Client Filter — Zama FHEVM DApp", 
+        "image": "./images/ConfidentialClientFilter.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/79_ConfidentialClientFilter/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Confidential Client Filter provides privacy-preserving client screening: `isCorporate AND turnover ≥ threshold`, computed fully on encrypted data. Users submit an encrypted client profile, the contract evaluates the filter homomorphically, and only an encrypted 0/1 result is stored on-chain." 
+    },
+        
+    {   
+        "title": "AgeGatedNFT — Encrypted Age Verification — Zama FHEVM DApp", 
+        "image": "./images/AgeGatedNFT.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/78_AgeGatedNFT/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "AgeGatedNFT introduces a new approach to gated digital collectibles using Fully Homomorphic Encryption. Instead of revealing a user’s birth year or age, the contract performs an encrypted comparison to determine whether the user meets a required minimum age — without ever exposing sensitive information on-chain." 
+    },
+        
+    {   
+        "title": "Blind Freelance Match — Zama FHEVM DApp", 
+        "image": "./images/BlindFreelanceMatch.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/90_BlindFreelanceMatch/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Encrypted, Trustless Freelance Matching on FHEVM. BlindFreelanceMatch is a fully private freelance–client matchmaking system built on Zama’s FHEVM. Freelancers and job creators submit encrypted skillsets, experience levels, and rates/budgets, and the contract performs a compatibility check directly on encrypted data. No one — not even blockchain validators — can see profile information or preferences. This project demonstrates how end-to-end encrypted marketplaces** can run entirely on-chain without revealing sensitive details about users, skills, or salaries." 
+    },
+        
+    {   
+        "title": "Secret Health Metrics — Zama FHEVM DApp", 
+        "image": "./images/SecretHealthMetrics.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/54_SecretHealthMetrics/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "SecretHealthMetrics is a decentralized privacy-preserving health-compatibility matcher built on Zama’s FHEVM. All user data — age group, BMI category, blood pressure index — is encrypted end-to-end, processed homomorphically on-chain, and never revealed to anyone, not even validators." 
+    },
+        
+    {   
+        "title": "Anonymous Review Analytics — Zama FHEVM DApp", 
+        "image": "./images/AnonymousReviewAggregator.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/123_AnonymousReviewAggregator/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "Anonymous Review Analytics lets engineers submit encrypted code‑review ratings while team leads only see **aggregated quality levels (0–2)** instead of raw scores. The contract stores homomorphically encrypted aggregates (sum + count) and exposes three analytics layers: per review, per reviewer tag, and global team health." 
+    },
+        
+    {   
+        "title": "Private Donor Match — Zama FHEVM DApp", 
+        "image": "./images/PrivateDonorMatch.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/98_PrivateDonorMatch/", 
+        "category": "dApps", 
+        "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
+        "description": "This is a dApp for private matching of blood/organ donors and recipients, built on top of Zama's FHEVM protocol: all medical parameters are encrypted, but the smart contract still performs the matching logic directly on-chain without revealing sensitive data." 
     }
-   
+        
 
 ]
 
