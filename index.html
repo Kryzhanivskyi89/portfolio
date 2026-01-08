@@ -624,6 +624,79 @@
                             </p>
                         </div>
                     </li>
+
+                    <li class="faq-item">
+                        <button type="button" class="faq-button" aria-label="Toggle answer">
+                          <div class="faq-icon-wrapper">
+                              <svg class="icon-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M4 8H12" stroke="#0056b3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M8 12V4" stroke="#0056b3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                              <svg class="icon-minus hidden" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M4 8H12" stroke="#173D33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </div>
+                          <h3 class="faq-question">Do you actually work with Web3 and blockchain, or are you mainly a traditional full‑stack developer?</h3>
+                        </button>
+                        <div class="faq-answer answer">
+                            <p class="faq-answer answer">
+                                Yes — Web3 is a core part of what I do now, especially around privacy‑preserving dApps and Zama’s FHEVM (Fully Homomorphic Encryption for EVM), not just a side experiment.
+                                Over the last months I’ve been building a portfolio of 30+ decentralized applications on top of Zama’s FHEVM protocol as part of the C4 decentralized builders collective, within a developer bounty program focused on on‑chain privacy and confidential computing. These are not token launchpads or meme projects — they are confidential applications where smart contracts process encrypted data directly on‑chain.
+                            </p>  
+
+                            <p class="projects">A few examples:</p>
+
+                            <ul class="projects-list">
+                                <li>
+                                    <p class="archievements">
+                                        - <a href="https://kryzhanivskyi89.github.io/PrivateDonorMatch/" target="_blank">
+                                            Private Donor Match</a> – a medical dApp for private matching of blood/organ donors and recipients. Blood type, Rh factor and HLA score are encrypted end‑to‑end; the smart contract still computes compatibility (match / no match) on‑chain without ever seeing those values in plaintext.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="archievements">
+                                        -  <a href="kryzhanivskyi89.github.io/AnonymousReviewAggregator/" target="_blank">
+                                            Anonymous Review Analytics</a> – an internal tool for engineering teams. Developers submit encrypted 1–5 scores for code reviews; managers only see aggregated quality levels (0 = excellent, 1 = ok, 2 = needs attention), never raw scores per person.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="archievements">
+                                        - Other prototypes – confidential subscriptions, private scoring, encrypted analytics, and gamified flows that all rely on operating over encrypted integers (euint*) using FHEVM operations such as FHE.eq, FHE.ge, FHE.and, FHE.select.
+                                    </p>
+                                </li>
+                            </ul>
+                            
+                            <p class="projects">
+                                In these projects, my role is full‑stack Web3 rather than a narrow “Solidity‑only” or “frontend‑only” position: 
+                            </p>
+                            <ul class="projects-list">
+                                <li>
+                                    <p class="archievements">
+                                        - On the smart contract side, I design and implement contracts on FHEVM using specialized encrypted types (euint8, euint16, ebool) and homomorphic operations, and I encode programmable privacy directly into the contract: what stays encrypted, what can be publicly decrypted, and who is allowed to trigger decryption via KMS flows. I work with patterns like FHE.allow, FHE.allowThis, encrypted access control, and bytes32 handles for public decryption.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="archievements">
+                                        - On the frontend side, I build lightweight UIs (React or vanilla HTML/JS) that connect via MetaMask and Ethers.js v6, and integrate Zama’s Relayer SDK so that all sensitive data is encrypted in the browser before it ever touches the blockchain. The contract only receives encrypted handles and attestations rather than raw user input.
+                                </li>
+                                <li>
+                                    <p class="archievements">
+                                        - From an end‑to‑end perspective, I take projects from idea → data model and UX → smart contract implementation → FHEVM/Sepolia deployment → frontend integration → testing of the full encryption/decryption flow with the Zama KMS. This includes debugging edge cases, thinking about UX around cryptography, and documenting patterns so they can be reused across multiple dApps.
+                                    </p>
+                                </li>
+                                
+                            </ul>
+
+                            <p class="archievements">
+                                To make this sustainable, I also designed a reusable FHEVM dApp template: a small architecture that combines a Solidity FHEVM contract, Relayer SDK wiring, and a minimal UI. This template became the foundation for more than 30 prototypes across different domains, which helped me focus on business logic and privacy models instead of re‑solving the same boilerplate every time.
+                            </p>
+                            
+                            <p class="archievements">
+                                All of this builds on top of my traditional full‑stack background (React/Next.js, Node.js/NestJS, Python/PostgreSQL, MongoDB, REST APIs), so I don’t just ship isolated contracts — I ship complete applications: UI, wallet flows, contract logic, and integration with existing web tooling. That mix of Web2 and Web3 experience is especially important in the FHEVM space, where you need to care about performance, UX, and cryptography at the same time.
+                            </p>
+                           
+                        </div>
+                    </li>
                     
                 </ul>
 
