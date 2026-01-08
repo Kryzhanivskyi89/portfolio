@@ -138,7 +138,7 @@
 
    {
         "title": "Health Metric Zone",
-        "image": "./images/HealthMetricZone.png",
+        "image": "./images/healthmetriczone.png",
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_43_HealthMetricZone/",
         "category": "dApps",
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0-5, HTML5, CSS, Java Script",
@@ -146,7 +146,7 @@
         },
         {
         "title": "Hidden Performance Bonus",
-        "image": "./images/HiddenPerformanceBonus.png",
+        "image": "./images/hiddenperformancebonus.png",
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_44_HiddenPerformanceBonus/",
         "category": "dApps",
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script",
@@ -154,14 +154,14 @@
         },
         {
         "title": "League Placement Shadow",
-        "image": "./images/LeaguePlacementShadow.png",
+        "image": "./images/leagueplacementshadow.png",
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_45_LeaguePlacementShadow/",
         "category": "dApps",
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script",
         "description": "League Placement Shadow lets competitive players submit encrypted tournament points, while the contract assigns league placement homomorphically (Iron / Bronze / Silver / Gold). The system only reveals the league code; raw points are never exposed on-chain. Players can privately decrypt their placement to see the exact score if desired. This approach guarantees fair ranking without compromising player statistics or revealing sensitive ranking data publicly."
         },
         { "title": "Probability Twist Wheel — Zama FHEVM DApp", 
-        "image": "./images/ProbabilityTwistWheel.png", 
+        "image": "./images/probabilitytwistwheel.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_46_ProbabilityTwistWheel/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -169,7 +169,7 @@
     },
     {   
         "title": "Secret Risk Map — Zama FHEVM DApp", 
-        "image": "./images/SecretRiskMap.png", 
+        "image": "./images/secretriskmap.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_47_SecretRiskMap/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -177,7 +177,7 @@
     },
     {   
         "title": "Hidden Grade Release — Zama FHEVM DApp", 
-        "image": "./images/HiddenGradeRelease.png", 
+        "image": "./images/hiddengraderelease.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_48_HiddenGradeRelease/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script",
@@ -185,7 +185,7 @@
     },
     {   
         "title": "Private Cashback Tier — Zama FHEVM DApp",
-        "image": "./images/PrivateCashbackTier.png", 
+        "image": "./images/privatecashbacktier.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_49_PrivateCashbackTier/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -193,7 +193,7 @@
     },
     {   
         "title": "Encrypted Dice Arena — Zama FHEVM DApp", 
-        "image": "./images/EncryptedDiceArena.png", 
+        "image": "./images/encrypteddicearena.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_50_EncryptedDiceArena/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -201,7 +201,7 @@
     },
     {   
         "title": "FHE Secret Memory Match — Zama FHEVM DApp", 
-        "image": "./images/SecretMemoryMatch.png", 
+        "image": "./images/secretmemorymatch.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_51_SecretMemoryMatch/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -209,7 +209,7 @@
     },
     {   
         "title": "Blind Target Range — Zama FHEVM DApp", 
-        "image": "./images/BlindTargetRange.png", 
+        "image": "./images/blindtargetrange.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_52_%20BlindTargetRange/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -217,7 +217,7 @@
     },
     {   
         "title": "Encrypted Puzzle Steps — Zama FHEVM DApp", 
-        "image": "./images/EncryptedPuzzleSteps.png", 
+        "image": "./images/encryptedpuzzlesteps.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_53_EncryptedPuzzleSteps/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -225,7 +225,7 @@
     },
     {   
         "title": "Private Chess Rating Gate — Zama FHEVM DApp", 
-        "image": "./images/PrivateChessRatingGate.png", 
+        "image": "./images/privatechessratinggate.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_54_PrivateChessRatingGate/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -233,7 +233,7 @@
     },
     {   
         "title": "Hidden Door Code — Zama FHEVM DApp", 
-        "image": "./images/HiddenDoorCode.png", 
+        "image": "./images/hiddendoorcode.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_55_HiddenDoorCode/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -241,7 +241,7 @@
     },
     {   
         "title": "Private Coin Flipper vs House — Zama FHEVM DApp", 
-        "image": "./images/PrivateCoinFlipper.png", 
+        "image": "./images/privatecoinflipper.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_56_%20PrivateCoinFlipperVsHouse/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -249,7 +249,7 @@
     },
     {   
         "title": "Secret Weight Guess — Zama FHEVM DApp", 
-        "image": "./images/SecretWeightGuess.png", 
+        "image": "./images/secretweightguess.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_57_%20SecretWeightGuess/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -257,7 +257,7 @@
     },
     {   
         "title": "FHE Jackpot Threshold — Zama FHEVM DApp", 
-        "image": "./images/FHEJackpotThreshold.png", 
+        "image": "./images/fhejackpotthreshold.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_58_%20FHEJackpotThreshold/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -265,7 +265,7 @@
     },
     {   
         "title": "Encrypted Math Duel — Zama FHEVM DApp", 
-        "image": "./images/EncryptedMathDuel.png", 
+        "image": "./images/encryptedmathduel.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_59_EncryptedMathDuel/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -273,7 +273,7 @@
     },
     {   
         "title": "Secret Karaoke Score — Zama FHEVM DApp", 
-        "image": "./images/SecretKaraokeScore.png", 
+        "image": "./images/secretkaraokescore.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_60_SecretKaraokeScore/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -281,7 +281,7 @@
     },
     {   
         "title": "Private Race Time — Zama FHEVM DApp", 
-        "image": "./images/PrivateRaceTime.png", 
+        "image": "./images/privateracetime.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_61_PrivateRaceTime/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -289,7 +289,7 @@
     },
     {   
         "title": "Hidden Challenge Tier — Zama FHEVM DApp", 
-        "image": "./images/HiddenChallengeTier.png", 
+        "image": "./images/hiddenchallengetier.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/2_62_HiddenChallengeTier/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -298,7 +298,7 @@
         
     {   
         "title": "Private Subscription Calibration — Zama FHEVM DApp", 
-        "image": "./images/PrivateSubscriptionCalibrator.png", 
+        "image": "./images/privatesubscriptioncalibrator.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/82_PrivateSubscription/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -307,7 +307,7 @@
         
     {   
         "title": "TinderDAO — Private Match — Zama FHEVM DApp", 
-        "image": "./images/TinderDAO.png", 
+        "image": "./images/tinderdao.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/81_TinderDAOPrivateMatch/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -316,7 +316,7 @@
         
     {   
         "title": "Private Contribution Rewards — Zama FHEVM DApp", 
-        "image": "./images/PrivateContributionRewards.png", 
+        "image": "./images/privatecontributionrewards.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/83_PrivateContributionRewards/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -325,7 +325,7 @@
         
     {   
         "title": "Private Trust Chain — Zama FHEVM DApp", 
-        "image": "./images/PrivateTrustChain.png", 
+        "image": "./images/privatetrustchain.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/84_PrivateTrustChain/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -334,7 +334,7 @@
         
     {   
         "title": "Private DAO Reporting — Zama FHEVM DApp", 
-        "image": "./images/PrivateDAOReporting.png", 
+        "image": "./images/privatedaoreporting.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/85_PrivateDAOReporting/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -343,8 +343,8 @@
         
     {   
         "title": "Encrypted Certification Filter — Zama FHEVM DApp", 
-        "image": "./images/EncryptedCertificationFilter.png", 
-        "src": "https://kryzhanivskyi89.github.io/zama/deployed/80_EncryptedCertificationFilter/", 
+        "image": "./images/encryptedcertificationfilter.png", 
+        "src": "https://kryzhanivskyi89.github.io/zama/deployed/80_EncryptedCertifications/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
         "description": "Encrypted Certification Filter implements privacy-preserving aggregation of qualification levels. Users submit encrypted levels, the contract aggregates them on-chain, but never sees any plaintext, enabling confidential skill and certification analytics." 
@@ -352,7 +352,7 @@
         
     {   
         "title": "Confidential Client Filter — Zama FHEVM DApp", 
-        "image": "./images/ConfidentialClientFilter.png", 
+        "image": "./images/confidentialclientfilter.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/79_ConfidentialClientFilter/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -361,7 +361,7 @@
         
     {   
         "title": "AgeGatedNFT — Encrypted Age Verification — Zama FHEVM DApp", 
-        "image": "./images/AgeGatedNFT.png", 
+        "image": "./images/agegatednft.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/78_AgeGatedNFT/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -370,7 +370,7 @@
         
     {   
         "title": "Blind Freelance Match — Zama FHEVM DApp", 
-        "image": "./images/BlindFreelanceMatch.png", 
+        "image": "./images/blindfreelancematch.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/90_BlindFreelanceMatch/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -379,7 +379,7 @@
         
     {   
         "title": "Secret Health Metrics — Zama FHEVM DApp", 
-        "image": "./images/SecretHealthMetrics.png", 
+        "image": "./images/secrethealthmetrics.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/54_SecretHealthMetrics/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
@@ -388,7 +388,7 @@
         
     {   
         "title": "Anonymous Review Analytics — Zama FHEVM DApp", 
-        "image": "./images/AnonymousReviewAggregator.png", 
+        "image": "./images/anonymousreviewaggregator.png", 
         "src": "https://kryzhanivskyi89.github.io/zama/deployed/123_AnonymousReviewAggregator/", 
         "category": "dApps", 
         "technology": "Web3, Blockchain, FHEVM, Solidity, ZamaProtocol, Relayer SDK 0.3.0, HTML5, CSS, Java Script", 
