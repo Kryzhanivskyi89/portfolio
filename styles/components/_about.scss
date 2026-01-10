@@ -26,11 +26,6 @@
 }
 
 .about {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
-    color: var(--text-main);
     margin-bottom: 20px;
     padding: 20px;
     background: #fff;
@@ -38,7 +33,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: opacity 1s ease-out, transform 1s ease-out;
 
-    @media screen and (min-width: 768px) {
+}
+
+.about-par {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    color: var(--text-main);
+     @media screen and (min-width: 768px) {
         font-size: 20px;
     }
 
@@ -46,6 +49,7 @@
         font-size: 22px;
     }
 }
+
 
 .about p {
     margin-bottom: 15px;

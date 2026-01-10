@@ -10,7 +10,7 @@ function createCard(data, category = 'all') {
     const markup = filteredData.map(({ title, image, src, technology, description }) => `
         <li class="card hidden" data-category="${category === 'all' ? 'all' : category}">
             <a target="_blank" href="${src}">
-                <div class="face face1">
+                <div class="back">
                     <div class="content">
                         <picture>
                             <source srcset="" type="image/webp" />
@@ -24,7 +24,7 @@ function createCard(data, category = 'all') {
                         </picture>
                     </div>
                 </div>
-                <div class="face face2">
+                <div class="front">
                     <div class="content">
                         <h3 class="content__title">${title}</h3>
                         <div><p class="descr">${technology}</p></div>
