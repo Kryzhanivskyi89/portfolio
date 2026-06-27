@@ -1,78 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of AndrewDev, Full Stack Developer focused on React, Next.js, Node.js, NestJS, Web3, FHEVM and production web applications." />
+    <meta name="theme-color" content="#070B18" />
+    <meta property="og:title" content="&lt;AndrewDev/&gt; — Full Stack / Web3 Developer" />
+    <meta property="og:description" content="Dark SaaS-style AndrewDev portfolio with production projects, Web3 dApps, CRM systems, automation platforms and GitHub profile." />
+    <meta property="og:type" content="website" />
+    <title>&lt;AndrewDev/&gt; — Full Stack / Web3 Developer</title>
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/index.css" />
 </head>
 
 <body>
     <header class="header">
         <div class="container header-wrap">
-            <a class="logo-header" href="./index.html">
-                &lt;AndrewDev/&gt;
+            <a class="logo-header" href="#hero" aria-label="Go to hero section">
+                <span class="logo-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span class="logo-text">&lt;AndrewDev/&gt;</span>
             </a>
-            <nav class="navigation">
+            <nav class="navigation" aria-label="Primary navigation">
                 <ul class="navigation_list list">
-                    <li class="navigation_item">
-                        <a class="navigation_link" href="#about">profile</a>
-                    </li>
-                    <li class="navigation_item">
-                        <a class="navigation_link" href="#achievements">achievements</a>
-                    </li>
-                    <li class="navigation_item">
-                        <a class="navigation_link" href="#skils">skils</a>
-                    </li>
-                    <li class="navigation_item">
-                        <a class="navigation_link" href="#codewars">codewars</a>
-                    </li>
-                    <li class="navigation_item">
-                        <a class="navigation_link" href="#github-profile">github</a>
-                    </li>
-                     <li class="navigation_item">
-                        <a class="navigation_link" href="#faq">faq</a>
-                    </li>
-                    <li class="navigation_item">
-                        <a class="navigation_link" href="#portfolio">portfolio</a>
-                    </li>
+                    <li class="navigation_item"><a class="navigation_link" href="#about">Profile</a></li>
+                    <li class="navigation_item"><a class="navigation_link" href="#achievements">Results</a></li>
+                    <li class="navigation_item"><a class="navigation_link" href="#skills">Stack</a></li>
+                    <li class="navigation_item"><a class="navigation_link" href="#codewars">Codewars</a></li>
+                    <li class="navigation_item"><a class="navigation_link" href="#github-profile">GitHub</a></li>
+                    <li class="navigation_item"><a class="navigation_link" href="#faq">FAQ</a></li>
+                    <li class="navigation_item"><a class="navigation_link navigation_link--cta" href="#portfolio">Projects</a></li>
                 </ul>
             </nav>
-            <button type="button" class="mobile-menu-btn js-open-menu">
-                <svg class="mobile-menu-icon" width="24" height="16">
-                    <use href="./images/sprite.svg#icon-menu-hamburger"></use>
-                </svg>
+            <button type="button" class="mobile-menu-btn js-open-menu" aria-label="Open mobile menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
         </div>
-        <div class="mobile-menu js-menu-container">
+        <div class="mobile-menu js-menu-container" aria-hidden="true">
             <div class="container mobile-menu-container">
-                <button class="mobile-menu-close-bnt js-close-menu">
-                    <svg class="menu-modal-button-icon" width="40" height="40">
-                        <use href="./images/sprite.svg#icon-close"></use>
-                    </svg>
+                <button class="mobile-menu-close-bnt js-close-menu" type="button" aria-label="Close mobile menu">
+                    ×
                 </button>
                 <ul class="mobile-header-menu list">
-                    <li class="menu-item">
-                        <a class="menu-link" href="#about">profile</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#achievements">achievements</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#skils">skils</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#codewars">codewars</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#github-profile">github</a>
-                    </li>
-                     <li class="menu-item">
-                        <a class="menu-link" href="#faq">faq</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#portfolio">portfolio</a>
-                    </li>
+                    <li class="menu-item"><a class="menu-link" href="#about">Profile</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#achievements">Results</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#skills">Stack</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#codewars">Codewars</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#github-profile">GitHub</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#faq">FAQ</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#portfolio">Projects</a></li>
                 </ul>
             </div>
         </div>
@@ -80,25 +60,82 @@
     
     <main>
         <section class="hero" id="hero">
-            <div class="hero-wrap">
-                <h1 class="hero-title">Andrii Kryzhanivskyi</h1>
-                <p class="hero-description">Full Stack Developer</p>
-                <p class="hero-description">
-                    (JavaScript/TypeScript, HTML/СSS, React/Next.js, Node.js/Nest.js)
-                </p>
-                <a href="https://github.com/Kryzhanivskyi89" class="hero-description">github.com/Kryzhanivskyi89</a>
-            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="eyebrow">Full Stack Developer · Web3 / FHEVM · Product Engineering</p>
+                    <h1 class="hero-title">&lt;AndrewDev/&gt;</h1>
+                    <p class="hero-subtitle">Andrii Kryzhanivskyi · Full Stack / Web3 Developer</p>
+                    <p class="hero-description hero-description--lead">
+                        I build production web applications, CRM systems, automation platforms and privacy-preserving Web3 dApps with React, Next.js, Node.js, NestJS and Solidity.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#portfolio">View projects</a>
+                        <a class="btn btn-secondary" href="mailto:kryzhanivskyi.an@gmail.com">Contact me</a>
+                    </div>
+                    <ul class="hero-metrics list" aria-label="Key portfolio metrics">
+                        <li><span>3+</span><p>years production experience</p></li>
+                        <li><span>30+</span><p>privacy-preserving dApps</p></li>
+                        <li><span>70k+</span><p>images optimized</p></li>
+                        <li><span>60%</span><p>workflow time reduction</p></li>
+                    </ul>
+                </div>
+                <aside class="hero-panel" aria-label="Developer profile summary">
+                    <div class="panel-glow"></div>
+                    <div class="terminal-card">
+                        <div class="terminal-top"><span></span><span></span><span></span></div>
+                        <pre><code>const developer = {
+  brand: "&lt;AndrewDev/&gt;",
+  name: "Andrii",
+  role: "Full Stack / Web3",
+  stack: ["React", "Next.js", "NestJS", "Solidity"],
+  focus: "business workflows + encrypted dApps"
+};</code></pre>
+                    </div>
+                    <div class="availability-card">
+                        <p class="availability-dot">Available for product teams</p>
+                        <a href="https://github.com/Kryzhanivskyi89" target="_blank" rel="noopener noreferrer">github.com/Kryzhanivskyi89</a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <section class="signal-strip" aria-label="Core development focus">
+            <div class="container signal-strip__grid">
+                <article class="signal-card signal-card--wide">
+                    <span>01</span>
+                    <strong>Product-grade interfaces</strong>
+                    <p>Clean flows, dashboard logic, CRM screens, responsive UX and production-ready components.</p>
+                </article>
+                <article class="signal-card">
+                    <span>02</span>
+                    <strong>Encrypted Web3 apps</strong>
+                    <p>FHEVM, Solidity, Relayer SDK, wallet flows and private-state product logic.</p>
+                </article>
+                <article class="signal-card">
+                    <span>03</span>
+                    <strong>Backend workflows</strong>
+                    <p>Node/Nest APIs, auth, roles, databases, automation and data-heavy business systems.</p>
+                </article>
             </div>
         </section>
         <section class="section" id="about">
             <div class="container">
-                <h3 class="about-title">Profile</h3>
+                <p class="section-kicker">Profile</p>
+                <h3 class="about-title">Engineer profile</h3>
                 <div class="about">
                     <p class="about-par">
-                        Full-Stack Developer with nearly 3 years of production experience, specializing in building and optimizing complex business applications. Proven expertise in architecting scalable systems, delivering high-performance solutions, and leading technology decisions across the full development stack.
+                        Full-Stack Developer with 3+ years of production experience building CRM systems, e-commerce tools, automation platforms, data-heavy interfaces and Web3 applications.
                     </p>
                     <p class="about-par">
-                        Uniquely positioned with PhD in Ecology (Bacillus thuringiensis research) bringing scientific methodology to software engineering: systematic problem decomposition, data-driven decision making, hypothesis-driven development, and rigorous testing mindset. This rare combination of academic research rigor and production development experience enables me to deliver robust, scalable solutions for complex technical challenges.
+                        𝐌𝐲 𝐦𝐚𝐢𝐧 𝐬𝐭𝐫𝐞𝐧𝐠𝐭𝐡 is turning complex workflows into clear, reliable web products. I work across frontend architecture, API integration, authentication, backend logic, database interaction, performance optimization and production delivery.
+                    </p>
+                    <p class="about-par">
+                        I have worked on projects across CRM, beauty salon operations, e-commerce, laboratory automation, geolocation services and Web3. Key results include automating a laboratory workflow and reducing data processing time by 60%, optimizing 70,000+ e-commerce product images from 60GB to 8GB with 10–15x faster load times, integrating 20+ API endpoints in a CRM system, and supporting high-volume AI-assisted website production from structure and responsive implementation to QA and deployment
+                    </p>
+                    <p class="about-par">
+                       In Web3, I have built and deployed 30+ privacy-preserving dApps on Zama FHEVM using Solidity, encrypted euint types, Ethers.js v6 and Relayer SDK. These projects cover confidential use cases in healthcare, HR, analytics, gaming and subscription models.
+                    </p>
+                    <p class="about-par">
+                       My PhD in Ecology adds a strong analytical background: I am used to decomposing complex systems, validating assumptions and translating specialized domain knowledge into structured application logic. This helps me approach software development not only as code implementation, but as problem-solving for real business workflows.
                     </p>
 
                 </div>
@@ -143,190 +180,192 @@
         </section> -->
         <section class="section" id="achievements">
             <div class="container">
-                <h2 class="achievements-title">achievements</h2>
-                <ul class="list">
+                <p class="section-kicker">Selected outcomes</p>
+                <h2 class="achievements-title">Achievements</h2>
+                <ul class="achievements-list list">
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">Built over 15 web projects:</span>from CRM systems and high-load applications to responsive landing pages with backend integration, email services and third-party APIs.
+                            <span>
+                                Built business-oriented web applications across CRM, booking, e-commerce, laboratory automation, route management and high-volume landing production.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">Democratization of specialized knowledge:</span>Designed the application and coded my own narrow-field expertise into its logic, making complex tasks at the level of laboratory head/candidate of science accessible to users without special training
+                            <span>
+                                Developed frontend architecture with React, Next.js, TypeScript, Redux Toolkit, RTK Query, React Hook Form and Material UI for data-driven interfaces.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">Implemented frontend-backend integration:</span>in more than 10 projects using modern technologies: Node.js, NestJS, MongoDB, PostgreSQL, RTK Query. Ensured secure data exchange, fast client-server interaction, and real-time synchronization.
+                            <span>
+                                Integrated frontend applications with REST APIs, MongoDB, PostgreSQL and Python/Node.js/NestJS backends, including protected routes, refresh tokens and role-based access control.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">Authorization implementation:</span>Implemented an authorization system (JWT, Redux, email verification) and role-based access control in more than 8 products, ensuring data protection and privacy.
+                            <span>
+                                Automated a laboratory workflow by encoding scientific background expertise into application logic, reducing data processing time by 60% through real-time calculations and PDF report generation.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">CRUD operations:</span>Built a full cycle of CRUD operations for data management (users, contacts, products, orders, recipes) — for a total of 12+ solutions and applications.
+                            <span>
+                                Optimized 70,000+ e-commerce product images, reducing project size from 60GB to 8GB, achieving 90% disk space savings and improving image load performance by 10–15x.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">UI interfaces:</span>Created scalable and adaptive UI interfaces for different types of users, using modern libraries (React, Next.js, TypeScript, Material-UI), implemented themes, drag-and-drop, interactive widgets (weather, date, timers, music player).
+                            <span>
+                                Implemented CRM modules for employee management, client databases, service catalogs and product inventory, including integration with 20+ API endpoints.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">Business logic:</span>Developed complex business logic for beauty, agro, e-commerce and military sectors (CRM “Mriya”, AgroLabTest, Shop, Booking, CMS), migrated legacy projects to a modern stack (React→Next.js+TS), optimized the operation of systems with a large number of concurrent users.
+                            <span>
+                                Built reusable UI components and optimized API data handling with RTK Query, improving development speed, interface response time and search/filter performance.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">Performance optimization:</span>Optimized performance and loading time, implemented SSR, SSG, advanced routing, image processing automation, minimized project size (e.g., from 60GB to 8GB in Shop).
+                            <span>
+                                Designed production-ready REST API logic with centralized error handling, optimized database queries, role-based access control and complex data filtering.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">Feature integrations:</span>Implemented email automation, notifications, subscriptions, and PDF generation in many solutions.
+                            <span>
+                                Delivered over 250 responsive websites and landing pages in a high-volume production environment, covering page structure, adaptive layout, animations, integrations, deployment and domain setup.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
-                                <span class="pre-strengths">UI/UX solutions:</span>Ensured adaptability and retina optimization in all UI/UX solutions, understanding the importance of mobile experience (especially for beauty and e-commerce).
+                            <span>
+                                Built 30+ privacy-preserving Web3 dApps on Zama FHEVM using Solidity, Ethers.js v6, Relayer SDK and encrypted smart contract patterns.
                             </span>
                         </p>
                     </li>
-                    <li class="achievements-item">
+                    <!-- <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
+                            <span>
                                 <span class="pre-strengths">FHEVM dApps deployment:</span>Built and deployed 30+ privacy‑preserving dApps on Zama FHEVM, covering healthcare, HR, engineering analytics, gaming and subscription use cases.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
+                            <span>
                                 <span class="pre-strengths">Confidential smart contracts:</span>Designed and implemented confidential smart contracts using Solidity, FHEVM types (euint) and homomorphic operations on Sepolia/FHEVM testnet.
                             </span>
                         </p>
                     </li>
                     <li class="achievements-item">
                         <p class="achievements-description">
-                            <span contenteditable=true>
+                            <span>
                                 <span class="pre-strengths">Encrypted client flows:</span>Integrated Relayer SDK and Ethers v6 into lightweight frontends (vanilla JS) for encrypted client–contract interactions and KMS‑based decryption flows.
                             </span>
                         </p>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </section>
-        <section class="section" id="skils">
-            <div class="container skils">
-                <h3 class="skils-title"> Skills Set </h3>
-                <div class="skils-category">
+        <section class="section" id="skills">
+            <div class="container skills">
+                <p class="section-kicker">Technical toolkit</p>
+                <h3 class="skills-title">Skills Set</h3>
+                <div class="skills-category">
                     <div>
-                        <h3 class="skils-category-title"> Frontend </h3>
-                        <ul class="skils-icon list">
+                        <h3 class="skills-category-title"> Frontend </h3>
+                        <ul class="skills-icon list">
                             <li>
-                                <a href="https://www.javascript.com/" target="_blank">
+                                <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
                                         alt="JavaScript" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.typescriptlang.org/" target="_blank">
+                                <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                     src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://reactjs.org/" target="_blank">
+                                <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                     src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50px" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank">
+                                <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                     src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
+                                <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://redux.js.org/" target="_blank">
+                                <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                     src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/" target="_blank">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://mui.com/" target="_blank">
+                                <a href="https://mui.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                     src="https://profilinator.rishav.dev/skills-assets/mui.png" alt="Material UI" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://styled-components.com/" target="_blank">
+                                <a href="https://styled-components.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/styled-components.png" alt="Styled Components"
                                         height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="http://getbem.com/" target="_blank">
+                                <a href="http://getbem.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/bem.svg" alt="BEM" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://webpack.js.org/" target="_blank">
+                                <a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                     src="https://profilinator.rishav.dev/skills-assets/webpack-original.svg" alt="Webpack" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://vuejs.org/" target="_blank">
+                                <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" alt="Vue.js" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.figma.com/" target="_blank">
+                                <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://sass-lang.com/" target="_blank">
+                                <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/sass-original.svg" alt="Sass" height="50" />
                                 </a>
@@ -335,10 +374,10 @@
                         </ul>
                     </div>
                     <div>
-                        <h3 class="skils-category-title"> Backend </h3>
-                        <ul class="skils-icon list">
+                        <h3 class="skills-category-title"> Backend </h3>
+                        <ul class="skills-icon list">
                             <li>
-                                <a href="https://www.javascript.com/" target="_blank">
+                                <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer">
                                     <img 
                                         style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" 
@@ -347,62 +386,62 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.mongodb.com/" target="_blank">
+                                <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB"
                                         height="50" /></a>
                             </li>
                             <li>
-                                <a href="https://nodejs.org/" target="_blank">
+                                <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js"
                                         height="50" /></a>
                             </li>
                             <li>
-                                <a href="https://expressjs.com/" target="_blank">
+                                <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js"
                                         height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/" target="_blank">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.mysql.com/" target="_blank">
+                                <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://jquery.com/" target="_blank">
+                                <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/jquery.png" alt="jQuery" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.gnu.org/software/bash/" target="_blank">
+                                <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://webpack.js.org/" target="_blank">
+                                <a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/webpack-original.svg" alt="Webpack" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.typescriptlang.org/" target="_blank">
+                                <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.docker.com/" target="_blank">
+                                <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
                                     <img style="margin: 10px"
                                         src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" />
                                 </a>
@@ -414,12 +453,14 @@
         </section>
         <section class="section" id="codewars">
             <div class="container">
+                <p class="section-kicker">Problem solving</p>
                 <h2 class="codewars-title">My Codewars level</h2>
                 <img class="codewars-badge" src="https://www.codewars.com/users/Kryzhanivskyi89/badges/large" alt="Kryzhanivskyi89's Codewar stats" />
             </div>
         </section>
         <section class="section" id="github-profile">
             <div class="container gitHub">
+                <p class="section-kicker">Open-source footprint</p>
                 <h2 class="gitHub-title">My GitHub</h2>
                 <div id="github-data">
                     <p>Завантаження...</p>
@@ -443,14 +484,19 @@
                         alt="Top Languages" />
                 </a>
                 
+                <!-- GitHub contribution calendar is intentionally commented out.
+                     You spent time making it work, so the markup/logic is preserved in js/gitHub.js
+                     and can be restored later by uncommenting this block and the calendar code there.
                 <div id="github-contributions">
                     <p>Інформація завантажується...</p>
                 </div>
+                -->
             </div>
         </section>
         <section class="section" id="faq">
             <div class="container">
-                <h2 class="faq-title">Faq</h2>
+                <p class="section-kicker">Interview notes</p>
+                <h2 class="faq-title">FAQ</h2>
                 <ul class="faq-list">
 
                     <li class="faq-item">
@@ -634,17 +680,28 @@
                         </button>
                         <div class="faq-answer">
                             <p class="answer">
-                                <span style="font-weight: bold">Technical expertise:</span> I have in-depth knowledge of modern technologies, React, Redux, Next.js, Node.js, MongoDB, and Express. While working on the Mriya-CRM project, I developed the main functionality for managing employees, customers, services, and goods. He was responsible for designing key modules, performance optimization, and integration. As a result, he reduced page loading time by 35-55% and increased system performance by 25-45%. Also provided a user-friendly and intuitive interface that significantly improved the user experience.
+                                <span style="font-weight: bold">Business systems & automation:</span> CRM, e-commerce, booking, automation tools and data-heavy applications.
                             </p>
                             <p class="answer">
-                                <span style="font-weight: bold">Adaptability and improvement:</span>
-                                While working on Mriya-CRM, we modernized the technology stack, replacing React and JavaScript with Next.js, TypeScript, and Material-UI. This allowed him to increase frontend performance by 43% thanks to SSR, reduce the number of errors due to the use of typing, and speed up component creation by 25% thanks to Material-UI standards. Despite having no previous experience with these technologies, I quickly mastered them by adapting components and implementing optimizations.
+                                <span style="font-weight: bold">Frontend architecture & API integration:</span>
+                                Development with React, Next.js, TypeScript, Node.js, NestJS, Express, MongoDB and PostgreSQL. REST API integration, RTK Query, Redux Toolkit and role-based access.
                             </p>
                             
                             <p class="answer">
-                                <span style="font-weight: bold">Teamwork:</span>
-                                In the project, Mriya-CRM successfully coordinated the work of a team that included front- and back-end developers, designers, testers, and a project manager. He regularly held brainstorming sessions where the team discussed ideas and found optimal solutions. He also maintained constant communication with clients to clarify requirements and quickly adapt to changes. Thanks to this, he ensured clear synchronization between departments, high quality of the product and completion of tasks on time.
+                                <span style="font-weight: bold">Performance & data optimization:</span>
+                                Performance optimization, image processing and scalable data flows.
                             </p>
+
+                            <p class="answer">
+                                <span style="font-weight: bold">Production speed & independent delivery:</span>
+                                I can quickly and independently bring tasks to a finished production result..
+                            </p>
+
+                            <p class="answer">
+                                <span style="font-weight: bold">Web3 & privacy:</span>
+                                Web3 development with Solidity, Zama FHEVM, Ethers.js v6 and Relayer SDK.
+                            </p>
+
                         </div>
                     </li>
 
@@ -663,8 +720,8 @@
                         </button>
                         <div class="faq-answer answer">
                             <p class="faq-answer answer">
-                                Yes — Web3 is a core part of what I do now, especially around privacy‑preserving dApps and Zama’s FHEVM (Fully Homomorphic Encryption for EVM), not just a side experiment.
-                                Over the last months I’ve been building a portfolio of 30+ decentralized applications on top of Zama’s FHEVM protocol as part of the C4 decentralized builders collective, within a developer bounty program focused on on‑chain privacy and confidential computing. These are not token launchpads or meme projects — they are confidential applications where smart contracts process encrypted data directly on‑chain.
+                                Yes — I work with Web3, especially around privacy‑preserving dApps and Zama’s FHEVM (Fully Homomorphic Encryption for EVM), not just a side experiment.
+                                Over the months I’ve been building a portfolio of 30+ decentralized applications on top of Zama’s FHEVM protocol as part of the C4 decentralized builders collective, within a developer bounty program focused on on‑chain privacy and confidential computing. These are not token launchpads or meme projects — they are confidential applications where smart contracts process encrypted data directly on‑chain.
                             </p>  
 
                             <p class="projects">A few examples:</p>
@@ -672,13 +729,13 @@
                             <ul class="projects-list">
                                 <li>
                                     <p class="archievements">
-                                        - <a href="https://kryzhanivskyi89.github.io/PrivateDonorMatch/" target="_blank">
+                                        - <a href="https://kryzhanivskyi89.github.io/PrivateDonorMatch/" target="_blank" rel="noopener noreferrer">
                                             Private Donor Match</a> – a medical dApp for private matching of blood/organ donors and recipients. Blood type, Rh factor and HLA score are encrypted end‑to‑end; the smart contract still computes compatibility (match / no match) on‑chain without ever seeing those values in plaintext.
                                     </p>
                                 </li>
                                 <li>
                                     <p class="archievements">
-                                        -  <a href="kryzhanivskyi89.github.io/AnonymousReviewAggregator/" target="_blank">
+                                        -  <a href="https://kryzhanivskyi89.github.io/AnonymousReviewAggregator/" target="_blank" rel="noopener noreferrer">
                                             Anonymous Review Analytics</a> – an internal tool for engineering teams. Developers submit encrypted 1–5 scores for code reviews; managers only see aggregated quality levels (0 = excellent, 1 = ok, 2 = needs attention), never raw scores per person.
                                     </p>
                                 </li>
@@ -727,6 +784,7 @@
         </section>
         <section class="section" id="portfolio">
             <div class="container">
+                <p class="section-kicker">Featured work</p>
                 <h2 class="portfolio-title">Portfolio</h2>
                 <div class="portfolio-filters">
                     <button class="filter-btn active" data-category="all">All</button>

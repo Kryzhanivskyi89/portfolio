@@ -1,6 +1,6 @@
-
-fetch('https://www.codewars.com/api/v1/users/Kryzhanivskyi89')
-    .then(response => response.json())
-    .then(data => {
-        document.querySelector('.codewars-badge img').src = data.badges.large;
-    });
+// The Codewars badge is already loaded directly in HTML.
+// This file remains as a safe hook in case you want to extend the section later.
+document.addEventListener('DOMContentLoaded', () => {
+  const badge = document.querySelector('.codewars-badge');
+  if (badge) badge.loading = 'lazy';
+});
