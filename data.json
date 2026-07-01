@@ -7,13 +7,21 @@
     "technology": "HTML5, SCSS, Java Script, Claidinary API, Node.js, MongoDB, NodeMailer, Vercel, Render",
     "description": "Optimized online store with responsive design, integration with Cloudinary API, and server-based architecture for order processing."
   },
-    {
+  {
     "title": "Wallet Keys",
     "image": "./images/optimized/walletKeys.png",
     "src": "https://github.com/Kryzhanivskyi89/wallet-keys",
     "category": "app",
     "technology": "JavaScript · Web Crypto API · IndexedDB · AES-256-GCM · PBKDF2 · Local-first App · Security UX · HTML · CSS",
     "description": "A local-first encrypted vault for crypto wallet credentials, built with vanilla JavaScript, IndexedDB and Web Crypto API. It supports AES-256-GCM encryption, PBKDF2 key derivation, auto-lock, failed-attempt protection and clipboard auto-clear."
+  },
+  {
+    "title": "Devvault",
+    "image": "./images/optimized/devvault.png",
+    "src": "https://github.com/kryzhanivskyidev/devvault",
+    "category": "app",
+    "technology": "Astro · React · Markdown · Content Collections · Static Site Generation · SEO · RSS · Affiliate Components · Technical Content Platform",
+    "description": "An early-stage developer content platform built with Astro, Markdown content collections and React components. DevVault focuses on SEO-friendly reviews and guides around AI tools, security, crypto and automation, with dynamic categories, RSS support and an affiliate-ready monetization layer."
   },
   {
     "title": "Private Donor Match — Zama FHEVM",
